@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         File: osa-revtex4-1.tex                             %
+%                        Date: April 15, 2013                                 %
+%                                                                             %
+%                              BETA VERSION!                                  %
+%                   JOSA A, JOSA B, Applied Optics, Optics Letters            %
+%                                                                             %
+%            This file requires the substyle file osajnl4-1.rtx,              %
+%                   running under REVTeX 4.1 and LaTeX 2e                     %
+%                                                                             %
+%                   USE THE FOLLOWING REVTeX 4-1 OPTIONS:                     %
+% \documentclass[osajnl,twocolumn,showpacs,superscriptaddress,10pt]{revtex4-1}%
+%                    %% Use 11pt for Applied Optics                           %
+%                                                                             %
+%               (c) 2013 The Optical Society of America                       %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[osajnl,twocolumn,showpacs,superscriptaddress,10pt]{revtex4-1} %% use 11pt for Applied Optics
+%%\documentclass[osajnl,preprint,showpacs,superscriptaddress,12pt]{revtex4-1} %% use 12pt for preprint option
+\usepackage{amsmath,amssymb,graphicx}
+\begin{document}
+
+\title{Preparing a REV\TeX{}4-1 manuscript
+for the OSA journals \\ JOSA A, JOSA B, \textit{Optics Letters}, and
+\textit{Applied Optics} }
+
+\author{Joe Richardson}
+\affiliation{Peer Review, Optical Society of America, 2010 Massachusetts Avenue, NW,
+Washington, D.C. 20036, USA}
+
+\author{Chris Videll}\email{Corresponding author: xyx@osa.org}
+\author{Jennifer Mayfield}
+\affiliation{Publishing Production Services, Optical Society of America,  2010 Massachusetts Avenue, NW,
+Washington, D.C. 20036, USA}
+
+
+
+\begin{abstract}This template is provided to demonstrate options
+for using REV\TeX{}4-1 in preparing manuscripts for submission to
+JOSA A, JOSA B, \textit{Optics Letters}, and \textit{Applied Optics}. REV\TeX{}4-1 support
+for OSA journals was added September 2012 as a BETA and updated in April 2013. Users should obtain the
+REV\TeX{}4-1 package (\url{https://authors.aps.org/revtex4/}) and the OSA REV\TeX{}4-1 style files  (on the Author page of any OSA journal site). Authors in need of a length estimate because of page charge concerns can use the OSA REV\TeX{}4-1 template. The template will not yield an exact estimate but should provide a good approximation of the length of the page proof. Figures, large tables, and complex display math may still affect the estimate. Note that the two-column format is acceptable for submission and will meet the needs of OSA peer review and production.
+\end{abstract}
+
+\ocis{(140.3490) Lasers, distributed-feedback; (060.2420) Fibers, polarization-maintaining; (060.3735) Fiber
+Bragg gratings; (060.2370) Fiber optics sensors.}% REPLACE WITH CORRECT OCIS CODES FOR YOUR ARTICLE
+                          % NOTE: \ocis{} IS ALIASED TO \pacs{} BUT MUST
+                          % FORMAT THE TERMS CORRECTLY FOR EACH JOURNAL
+
+\maketitle %% required
+
+\section{Introduction}
+
+
+The OSA REV\TeX{}4-1 template is designed to assist authors with creating a two-column manuscript that can be submitted to JOSA A, JOSA B, \textit{Optics Letters}, and \textit{Applied Optics} (separate templates are available for other OSA journals, which have not yet migrated to REV\TeX{}).
+
+
+\begin{itemize}
+
+\itemsep1em
+
+\item See the ``REVTeX 4.1 Author's Guide'' for an overview of REV\TeX{}4-1's features \cite{revtex-au}.
+
+\item See the ``OSA Author Style Guide'' for points on OSA journal style \cite{osastyle}, such as use of OCIS codes.
+
+\end{itemize}
+
+\section{Preparing a REVTeX{} Manuscript for Submission to an OSA Journal}
+
+\begin{enumerate}
+
+\itemsep1em
+
+\item\emph{\textbf{Optics Letters}} \textbf{authors}: Be aware of two major changes for OL papers. Authors now have a firm \textbf{four}-page limit for their papers, and submitted papers must contain a \textbf{fifth} informational page, with complete references.
+\item \textbf{Preamble} Use the following preamble to invoke REV\TeX{}4.1 for OSA journals. Use the ``10~pt'' option for JOSA~A, JOSA~B, and OL; use the ``11~pt'' option for \textit{Applied Optics}:
+
+\begin{verbatim}
+\documentclass[osajnl,twocolumn,showpacs,
+superscriptaddress,10pt]{revtex4-1}
+\end{verbatim}
+
+\item \textbf{Citations} in REV\TeX{} use the \texttt{natbib} package. The \texttt{osajnl4-1.rtx} package will enforce appropriate
+style for citations callouts: ``$\ldots$ in this study [1,2].''  Use the \verb+\cite{}+ command for all callouts.
+
+\item \textbf{Bib\TeX{}} may be used to create a file containing the references, whose contents
+(i.e., contents of .bbl file) can then be pasted into the bibliography section of the .tex file. References must be contained within the .tex file, not a separate Bib\TeX{} file.
+
+\item \textbf{Compress} your .tex manuscript file and all figures (which should be in EPS format, or PDF format if you are using PDFLaTeX) in a ZIP, TAR or TAR-GZIP package. PRISM will process in LaTeX mode by default but will use PDF LaTeX if PDF figure files are detected. Note: TAR or TAR-GZIP is no longer required. All files must be referenced at the root level (e.g., file figure-1.eps, not /myfigs/figure-1.eps).
+
+
+\item \textbf{Figures and Tables} It is \textit{not} necessary to place figures and tables at the back of the manuscript. Figures and tables should be sized for display as you wish them to appear in the final article. Do not include a separate listing figure captions and table titles.
+
+
+
+\end{enumerate}
+
+\section{Sample Equation, Figure, and Table}
+
+\subsection{Equation}
+Sample equation. When a two-column equation is needed, use the \verb+\begin{widetext}\end{widetext}+ environment. See the ``REVTeX 4.1 Author's Guide'' \cite{revtex-au}.
+
+\begin{equation}
+ \Delta x \Delta p \approx h.
+\end{equation}
+
+
+
+\subsection{Figure}
+Sample figure environment. Use the \verb+graphicsx+ package. For two-column figures, use an asterisk in the figure environment: \verb+\begin{figure*}\end{figure*}+.
+
+%\begin{figure}[h!]
+%\centerline{\includegraphics[width=.8\columnwidth]{richardson-f1.eps}}
+%\caption{One-column figure set
+%with the figure environment.}
+%\end{figure}
+
+\begin{figure}[htbp]
+%\centerline{\includegraphics[width=.8\columnwidth]{richardson-f1.eps}}
+\caption{One-column figure set with the figure environment.}
+\end{figure}
+
+
+
+
+
+\subsection{Table}
+Sample table environment. For long tables, see the ``REVTeX 4.1 Author's Guide'' \cite{revtex-au}.
+
+\begin{table}[h!]
+  \caption{A simple table}
+  \begin{center}
+    \begin{tabular}{ccccccccc}
+    \hline
+    A & B & C & D & E & F & G & H & I\\
+    \hline
+    1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9\\
+    10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18\\
+    19 & 20 & 21 & 22 & 23 & 24 & 25 & 26 & 27\\
+    \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{thebibliography}{99}
+%% Do not include separate BibTeX files; if BibTeX is used,
+%% paste the output (contents of .bbl file) here.
+
+\bibitem{revtex-au} \url{https://authors.aps.org/revtex4/}.
+\bibitem{osastyle} \url{http://www.opticsinfobase.org/submit/style/jrnls_style.cfm}.
+
+\end{thebibliography}
+
+\end{document}
