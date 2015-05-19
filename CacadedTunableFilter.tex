@@ -106,7 +106,8 @@ In each contra-DC, the widths of the waveguides are of 560 and 440 nm.
 This high asymmetry ensures a negligible forward coupling. 
 The gratings are formed by sidewall corrugations in strip waveguides with a pitch of 312 nm. 
 The spacing between the waveguides varies between 65 and 135 nm with a Gaussian profile as shown in Fig.~\ref{fig:SEM} for efficient sidelobe suppression, for which details can be found in \cite{shi2013siliconCWDM}.
-The spectral responses of each contra-DC is calculated using coupled mode theory, following the same procedure as in  \cite{shi2013siliconContraDC}, with two additions: apodization and noise simulation.
+The spectral responses of each contra-DC is calculated using coupled mode theory, following the same procedure as in  \cite{shi2013siliconContraDC}, with three additions: apodization, temperature and noise simulation.
+
 %The first part in predicting the contra-directional coupler spectrum is to compute the dielectric variation caused by the perturbation $\Delta\varepsilon(x,y)$ which is $\varepsilon_0/\pi*(n_{max}(x,y)^2-n_{min}(x,y)^2)$ where the $1/\pi$ factor is the first Fourier expansion coefficient in the case of a square shaped perturbation. 
 %One also needs the mode distribution in each waveguide  $E_1(x,y)$ and $E_2(x,y)$ at the average point of the perturbation, which can be obtained using a 2D eigenmode solver such as Lumerical MODE. 
 %The couplings $\kappa_{11}$, $\kappa_{12}$ and $\kappa_{22}$  can then be calculated from
@@ -120,7 +121,7 @@ This calculation ideally takes shape in an infinite sum, but for computation sim
 Our simulations uses  steps of constant length $z_i-z_{i-1}=z_c$. 
 The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-matrix method, where $E(z_0)=C(z_0,z_n) E(z_n)$.
 
-\begin{equation}[!h]
+\begin{equation}
 \label{eq:CMatrix}
  C(z_0,z_n) =  \prod_{i=1}^{n}\me^{S_{1,i}(z_i-z_{i-1})}\me^{S_{2,i}(z_i-z_{i-1})}
 \end{equation}
@@ -166,7 +167,7 @@ In the ideal case, each contra-DC should be uniformly heated so that the apodiza
 %\section{Experiment}
 
 The device was fabricated using a CMOS-compatible technology with electron-beam lithography. 
-Fiber grating couplers were used as optical IOs in the measurement. 
+Fiber grating couplers\cite{zhong2014focusingFGC} were used as optical IOs in the measurement. 
 Fig.~\ref{fig:passive} shows the measured drop port response of the cascaded contra-DC filters. 
 The measurements were normalized using the response of a pair of directly connected fiber grating couplers on the same chip.
 \begin{figure}[htbp]
@@ -189,7 +190,7 @@ The power efficiency of the bandwidth tuning is about 24 mW/nm, which can signif
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.99\columnwidth]{data/Band5}
+\includegraphics[width=.99\columnwidth]{data/Band6}
 \caption{Spectral response of the device for different temperatures applied to only one contra-DC: 1-dB BW tuned down to 65 GHz, 3-dB BW to 117 GHz. The temperatures are obtained from simulation fit.}
 \label{fig:bandTune}
 \end{figure} 
@@ -248,7 +249,7 @@ An other important parameter to monitor is the group delay of the device. An une
 
 %\section{Conclusion}
 In summary, we have demonstrated a bandwidth tunable filter with a low insertion loss of less then 0.5 dB, low ripples of less than 0.3 dB, a large maximal bandwidth of greater than 750 GHz, and high contrast of 55 dB. 
-Compared to other devices based on microring resonators and MZIs, it enables a much larger maximal passband and does not suffer from small FSRs. 
+Compared to other devices based on microring resonators and MZIs (see Table \ref{table:comparison}), it enables a much larger maximal passband and does not suffer from small FSRs. 
 A large bandwidth tuning range over 670 GHz has been achieved, which, to the best of our knowledge, is the widest ever demonstrated on a silicon chip. 
 This ultra-wide bandwidth tunability makes the device very attractive for next-generation ultrahigh baud-rate applications (e.g., high-capacity super-channel transmissions) and flexible optical networking. 
 
@@ -273,6 +274,7 @@ This ultra-wide bandwidth tunability makes the device very attractive for next-g
     This work & Cascaded contra-DC &	778 GHz / Unlimited  &	117-778 GHz &	0.5 dB &	55 dB \\
     
     \hline
+    \label{table:comparison}
    \end{tabular}
     \end{table*}
 

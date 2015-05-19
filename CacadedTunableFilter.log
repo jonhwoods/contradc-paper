@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 MAY 2015 19:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  19 MAY 2015 14:09
 entering extended mode
 **CacadedTunableFilter.tex
 (F:\GitHub\contradc-paper\CacadedTunableFilter.tex
@@ -838,29 +838,29 @@ Package pdftex.def Info: data/FigApod.png used on input line 98.
 r/data/CascadedSchematic2.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 122.
+ on input line 123.
 
 <data/Passive6.pdf, id=21, 451.6875pt x 301.125pt>
 File: data/Passive6.pdf Graphic file (type pdf)
  <use data/Passive6.pdf>
-Package pdftex.def Info: data/Passive6.pdf used on input line 174.
+Package pdftex.def Info: data/Passive6.pdf used on input line 175.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
-Package epstopdf Info: Source file: <data/Band5.eps>
-(epstopdf)                    date: 2015-05-11 18:07:39
-(epstopdf)                    size: 30547 bytes
-(epstopdf)             Output file: <data/Band5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-11 18:08:21
-(epstopdf)                    size: 21541 bytes
-(epstopdf)             Command: <epstopdf --outfile=data/Band5-eps-converted-to
-.pdf data/Band5.eps>
-(epstopdf)             \includegraphics on input line 192.
+Package epstopdf Info: Source file: <data/Band6.eps>
+(epstopdf)                    date: 2015-05-19 14:03:14
+(epstopdf)                    size: 37409 bytes
+(epstopdf)             Output file: <data/Band6-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-19 14:03:16
+(epstopdf)                    size: 22995 bytes
+(epstopdf)             Command: <epstopdf --outfile=data/Band6-eps-converted-to
+.pdf data/Band6.eps>
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Band5-eps-converted-to.pdf, id=22, 451.6875pt x 301.125pt>
-File: data/Band5-eps-converted-to.pdf Graphic file (type pdf)
+<data/Band6-eps-converted-to.pdf, id=22, 451.6875pt x 301.125pt>
+File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
-<use data/Band5-eps-converted-to.pdf>
-Package pdftex.def Info: data/Band5-eps-converted-to.pdf used on input line 192
+<use data/Band6-eps-converted-to.pdf>
+Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 193
 .
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 Package epstopdf Info: Source file: <data/Central.eps>
@@ -871,7 +871,7 @@ Package epstopdf Info: Source file: <data/Central.eps>
 (epstopdf)                    size: 24517 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Central-eps-converted-
 to.pdf data/Central.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Central-eps-converted-to.pdf, id=23, 451.6875pt x 301.125pt>
@@ -879,13 +879,13 @@ File: data/Central-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Central-eps-converted-to.pdf>
 Package pdftex.def Info: data/Central-eps-converted-to.pdf used on input line 2
-02.
+03.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
  [2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/
 Passive6.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 206.
+ on input line 207.
 
 Package epstopdf Info: Source file: <data/Phase.eps>
 (epstopdf)                    date: 2015-05-11 18:08:17
@@ -895,34 +895,29 @@ Package epstopdf Info: Source file: <data/Phase.eps>
 (epstopdf)                    size: 23675 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Phase-eps-converted-to
 .pdf data/Phase.eps>
-(epstopdf)             \includegraphics on input line 243.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 <data/Phase-eps-converted-to.pdf, id=84, 451.6875pt x 297.11pt>
 File: data/Phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Phase-eps-converted-to.pdf>
-Package pdftex.def Info: data/Phase-eps-converted-to.pdf used on input line 243
+Package pdftex.def Info: data/Phase-eps-converted-to.pdf used on input line 244
 .
 (pdftex.def)             Requested size: 243.54135pt x 160.19673pt.
 
 (F:\GitHub\contradc-paper\CacadedTunableFilter.bbl [3 <F:/GitHub/contradc-paper
-/data/Band5-eps-converted-to.pdf> <F:/GitHub/contradc-paper/data/Central-eps-co
+/data/Band6-eps-converted-to.pdf> <F:/GitHub/contradc-paper/data/Central-eps-co
 nverted-to.pdf> <F:/GitHub/contradc-paper/data/Phase-eps-converted-to.pdf>]
-Underfull \hbox (badness 1062) in paragraph at lines 17--20
- \T1/lmr/m/n/9 contrast and tunable-bandwidth fil-ter us-ing cas-caded
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 38--40
+Underfull \hbox (badness 2600) in paragraph at lines 38--40
  []\T1/lmr/m/n/9 B. J. Frey, D. B. Levi-ton, and T. J. Madi-son,
  []
 
 ) [4] (F:\GitHub\contradc-paper\CacadedTunableFilter.aux) ) 
 Here is how much of TeX's memory you used:
- 6220 strings out of 493921
- 83234 string characters out of 3144867
- 159494 words of memory out of 3000000
- 9350 multiletter control sequences out of 15000+200000
+ 6225 strings out of 493921
+ 83363 string characters out of 3144867
+ 158525 words of memory out of 3000000
+ 9355 multiletter control sequences out of 15000+200000
  59887 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,8n,26p,552b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -946,7 +941,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (4 pages, 602956 bytes).
+Output written on CacadedTunableFilter.pdf (4 pages, 604103 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
