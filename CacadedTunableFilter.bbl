@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 
 \bibitem{DynamicBW}
@@ -37,6 +37,12 @@ A.~D. Simard, N.~Ayotte, Y.~Painchaud, S.~Bedard, and S.~LaRochelle,
 \bibitem{frey2006temperature}
 B.~J. Frey, D.~B. Leviton, and T.~J. Madison, \enquote{Temperature-dependent
   refractive index of silicon and germanium,}  (2006).
+
+\bibitem{zhong2014focusingFGC}
+Q.~Zhong, V.~Veerasubramanian, Y.~Wang, W.~Shi, D.~Patel, S.~Ghosh, A.~Samani,
+  L.~Chrostowski, R.~Bojko, and D.~V. Plant, \enquote{Focusing-curved
+  subwavelength grating couplers for ultra-broadband silicon photonics optical
+  interfaces,} Optics express \textbf{22}, 18,224--18,231 (2014).
 
 \bibitem{skaar2001synthesis}
 J.~Skaar, L.~Wang, and T.~Erdogan, \enquote{On the synthesis of fiber bragg
