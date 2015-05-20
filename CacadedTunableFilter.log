@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  19 MAY 2015 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  20 MAY 2015 09:11
 entering extended mode
 **CacadedTunableFilter.tex
 (F:\GitHub\contradc-paper\CacadedTunableFilter.tex
@@ -110,9 +110,21 @@ Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box41
+\UL@hyphenbox=\box42
+\UL@skip=\skip46
+\UL@hook=\toks16
+\UL@height=\dimen102
+\UL@pe=\count95
+\UL@pixel=\dimen103
+\ULC@box=\box43
+Package: ulem 2012/05/18
+\ULdepth=\dimen104
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -120,53 +132,53 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen102
+\@emptytoks=\toks17
+\ex@=\dimen105
 )
 LaTeX Info: Redefining \text on input line 39.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen103
+\pmbraise@=\dimen106
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box41
-\strutbox@=\box42
-\big@size=\dimen104
+\Mathstrutbox@=\box44
+\strutbox@=\box45
+\big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip11
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
-\tag@help=\toks17
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
-\andhelp@=\toks18
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
-\@envbody=\toks19
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks20
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -184,8 +196,8 @@ LaTeX Info: Redefining \Bbb on input line 113.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -610,17 +622,17 @@ Language: frenchb 2009/03/16 v2.3d French support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count107
-\U@D=\dimen111
+\babel@savecnt=\count108
+\U@D=\dimen114
 )
 Package babel Info: Making : an active character on input line 120.
 Package babel Info: Making ; an active character on input line 121.
 Package babel Info: Making ! an active character on input line 122.
 Package babel Info: Making ? an active character on input line 123.
-\FB@Mht=\dimen112
-\std@mcc=\count108
-\dec@mcc=\count109
-\parindentFFN=\dimen113
+\FB@Mht=\dimen115
+\std@mcc=\count109
+\dec@mcc=\count110
+\parindentFFN=\dimen116
 
 *************************************
 * Local config file frenchb.cfg used
@@ -635,7 +647,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks24
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -660,15 +672,15 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count110
+\Gread@gobject=\count111
 ))
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen116
-\epsfysize=\dimen117
+\epsfxsize=\dimen119
+\epsfysize=\dimen120
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -718,149 +730,151 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 35.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 35.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 36.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 36.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 35.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 35.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 35.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 36.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 36.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 36.
 
 
 LaTeX Warning: Unused global option(s):
     [osajnl].
 
 (F:\GitHub\contradc-paper\CacadedTunableFilter.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 36.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 35.
+LaTeX Info: Redefining \degres on input line 36.
 
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 35.
+(frenchb.ldf)                reported on input line 36.
 
-LaTeX Info: Redefining \dots on input line 35.
-LaTeX Info: Redefining \up on input line 35.
+LaTeX Info: Redefining \dots on input line 36.
+LaTeX Info: Redefining \up on input line 36.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen118
-\scratchbox=\box43
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen119
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count112
+\scratchdimen=\dimen121
+\scratchbox=\box46
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen122
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 56.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 56.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 56.
+(Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 56.
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+(Font)              <5> on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 56.
+(Font)              <9> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 57.
 
 <data/CascadedSchematic2.png, id=1, 1104.125pt x 506.89375pt>
 File: data/CascadedSchematic2.png Graphic file (type png)
 
 <use data/CascadedSchematic2.png>
-Package pdftex.def Info: data/CascadedSchematic2.png used on input line 78.
+Package pdftex.def Info: data/CascadedSchematic2.png used on input line 84.
 (pdftex.def)             Requested size: 246.0pt x 112.93239pt.
 
 <data/FigApod.png, id=3, 873.2625pt x 476.78125pt>
 File: data/FigApod.png Graphic file (type png)
  <use data/FigApod.png>
-Package pdftex.def Info: data/FigApod.png used on input line 98.
+Package pdftex.def Info: data/FigApod.png used on input line 104.
 (pdftex.def)             Requested size: 246.0pt x 134.30536pt.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/GitHub/contradc-pape
 r/data/CascadedSchematic2.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 123.
+ on input line 124.
 
-<data/Passive6.pdf, id=21, 451.6875pt x 301.125pt>
+<data/Passive6.pdf, id=20, 451.6875pt x 301.125pt>
 File: data/Passive6.pdf Graphic file (type pdf)
  <use data/Passive6.pdf>
-Package pdftex.def Info: data/Passive6.pdf used on input line 175.
+Package pdftex.def Info: data/Passive6.pdf used on input line 181.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
+
+[2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/P
+assive6.pdf>]
 Package epstopdf Info: Source file: <data/Band6.eps>
-(epstopdf)                    date: 2015-05-19 14:03:14
+(epstopdf)                    date: 2015-05-19 14:46:58
 (epstopdf)                    size: 37409 bytes
 (epstopdf)             Output file: <data/Band6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 14:03:16
+(epstopdf)                    date: 2015-05-19 14:46:58
 (epstopdf)                    size: 22995 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Band6-eps-converted-to
 .pdf data/Band6.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
-
-<data/Band6-eps-converted-to.pdf, id=22, 451.6875pt x 301.125pt>
+ <data/Band6-eps-converted-to.pdf, id=82, 451.6875pt x 301.125pt>
 File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Band6-eps-converted-to.pdf>
-Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 193
+Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 199
 .
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 Package epstopdf Info: Source file: <data/Central.eps>
@@ -871,22 +885,16 @@ Package epstopdf Info: Source file: <data/Central.eps>
 (epstopdf)                    size: 24517 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Central-eps-converted-
 to.pdf data/Central.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Central-eps-converted-to.pdf, id=23, 451.6875pt x 301.125pt>
+<data/Central-eps-converted-to.pdf, id=83, 451.6875pt x 301.125pt>
 File: data/Central-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Central-eps-converted-to.pdf>
 Package pdftex.def Info: data/Central-eps-converted-to.pdf used on input line 2
-03.
+09.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
- [2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/
-Passive6.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 207.
-
 Package epstopdf Info: Source file: <data/Phase.eps>
 (epstopdf)                    date: 2015-05-11 18:08:17
 (epstopdf)                    size: 34716 bytes
@@ -895,30 +903,38 @@ Package epstopdf Info: Source file: <data/Phase.eps>
 (epstopdf)                    size: 23675 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Phase-eps-converted-to
 .pdf data/Phase.eps>
-(epstopdf)             \includegraphics on input line 244.
+(epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
+
 <data/Phase-eps-converted-to.pdf, id=84, 451.6875pt x 297.11pt>
 File: data/Phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Phase-eps-converted-to.pdf>
-Package pdftex.def Info: data/Phase-eps-converted-to.pdf used on input line 244
+Package pdftex.def Info: data/Phase-eps-converted-to.pdf used on input line 250
 .
 (pdftex.def)             Requested size: 243.54135pt x 160.19673pt.
 
-(F:\GitHub\contradc-paper\CacadedTunableFilter.bbl [3 <F:/GitHub/contradc-paper
-/data/Band6-eps-converted-to.pdf> <F:/GitHub/contradc-paper/data/Central-eps-co
-nverted-to.pdf> <F:/GitHub/contradc-paper/data/Phase-eps-converted-to.pdf>]
-Underfull \hbox (badness 2600) in paragraph at lines 38--40
+(F:\GitHub\contradc-paper\CacadedTunableFilter.bbl
+Overfull \vbox (9.84808pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (9.84808pt too high) has occurred while \output is active []
+
+
+[3 <F:/GitHub/contradc-paper/data/Band6-eps-converted-to.pdf> <F:/GitHub/contra
+dc-paper/data/Central-eps-converted-to.pdf> <F:/GitHub/contradc-paper/data/Phas
+e-eps-converted-to.pdf>]
+Underfull \hbox (badness 2600) in paragraph at lines 43--45
  []\T1/lmr/m/n/9 B. J. Frey, D. B. Levi-ton, and T. J. Madi-son,
  []
 
 ) [4] (F:\GitHub\contradc-paper\CacadedTunableFilter.aux) ) 
 Here is how much of TeX's memory you used:
- 6225 strings out of 493921
- 83363 string characters out of 3144867
- 158525 words of memory out of 3000000
- 9355 multiletter control sequences out of 15000+200000
- 59887 words of font info for 56 fonts, out of 3000000 for 9000
+ 6311 strings out of 493921
+ 84280 string characters out of 3144867
+ 161619 words of memory out of 3000000
+ 9436 multiletter control sequences out of 15000+200000
+ 59993 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,8n,26p,552b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x
@@ -941,7 +957,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (4 pages, 604103 bytes).
+Output written on CacadedTunableFilter.pdf (4 pages, 604990 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

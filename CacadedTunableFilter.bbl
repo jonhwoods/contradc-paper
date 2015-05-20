@@ -1,17 +1,22 @@
 \begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 
-\bibitem{DynamicBW}
-B.~Zhang, D.~Leuenberger, M.-C.~M. Lee, A.~Willner, and M.~Wu,
-  \enquote{Experimental demonstration of dynamic bandwidth allocation using a
-  mems-actuated bandwidth-tunable microdisk resonator filter,} Photonics
-  Technology Letters, IEEE \textbf{19}, 1508--1510 (2007).
-
 \bibitem{jinno2009spectrum}
 M.~Jinno, H.~Takara, B.~Kozicki, Y.~Tsukishima, Y.~Sone, and S.~Matsuoka,
   \enquote{Spectrum-efficient and scalable elastic optical path network:
   architecture, benefits, and enabling technologies,} Communications Magazine,
   IEEE \textbf{47}, 66--73 (2009).
+
+\bibitem{geisler2011demonstration}
+D.~J. Geisler, N.~K. Fontaine, R.~P. Scott, and S.~Yoo, \enquote{Demonstration
+  of a flexible bandwidth optical transmitter/receiver system scalable to
+  terahertz bandwidths,} Photonics Journal, IEEE \textbf{3}, 1013--1022 (2011).
+
+\bibitem{DynamicBW}
+B.~Zhang, D.~Leuenberger, M.-C.~M. Lee, A.~Willner, and M.~Wu,
+  \enquote{Experimental demonstration of dynamic bandwidth allocation using a
+  mems-actuated bandwidth-tunable microdisk resonator filter,} Photonics
+  Technology Letters, IEEE \textbf{19}, 1508--1510 (2007).
 
 \bibitem{ong2013ultra}
 J.~R. Ong, R.~Kumar, and S.~Mookherjea, \enquote{Ultra-high-contrast and

@@ -14,7 +14,8 @@
 \documentclass[osajnl,twocolumn,showpacs,superscriptaddress,10pt]{revtex4-1}
 %\usepackage{osameet2}
 
-
+%\newcommand{\EDIT}{}
+\usepackage{ulem}
 
 \usepackage{amsmath,amssymb}
 \newcommand{\me}{\mathrm{e}}
@@ -33,7 +34,7 @@
 %\setlength{\bibsep}{2.0pt}
 
 \begin{document}
-\title{Widely Bandwidth-Tunable Broadband Optical Filter on Silicon}
+\title{Ultra-compact, widely bandwidth-tunable filter using cascaded silicon photonic contra-directional couplers}
 %\date{14/10/2014}
 
 \author{Jonathan St-Yves} 
@@ -58,12 +59,17 @@ A record bandwidth tuning from 788 to 117 GHz was achieved.
 %\section{Introduction}
 
 
-Optical filters are essential components for optical communication applications such as wavelength-division multiplexing (WDM), signal processing, and dynamic bandwidth allocation \cite{DynamicBW}.
-These key devices are now needed in integrated photonic systems, in this case, on the silicon-on-insulator platform (SOI), to achieve the same functions as traditional discrete optical components such as diffractive grating spectrometers. 
-Silicon photonics allows for CMOS compatible mass fabrication for low cost, high yield, and large-scale on-chip integration. 
-Future high-capacity transmission systems, e.g., applying the super-channel technique, will require a dynamic channel bandwidth allocation over a few hundred gigahertz \cite{jinno2009spectrum}. 
-However, large bandwidth tunability is currently only available in bulky bench-top systems. Existing integrated tunable filters, e.g., using microring resonators and MZ interferometers, have relatively small tunable bandwidth (less than 200 GHz)  \cite{ong2013ultra}. 
-Also, their free spectral ranges (FSRs) are small, typically less than 10 nm \cite{ong2013ultra}. 
+%Next-generation optical transmission systems require dynamic, efficient bandwidth allocation  
+%Bandwidth tunable optical filters are essential components for optical communication applications such as reconfigurable optical wavelength-division multiplexing (WDM), signal processing, and dynamic bandwidth allocation \cite{DynamicBW}.
+%These key devices are now needed in integrated photonic systems, in this case, on the silicon-on-insulator platform (SOI), to achieve the same functions as traditional discrete optical components such as diffractive grating spectrometers. 
+Next-generation optical transmission systems applying flexible networking and the super-channel technique will require highly dynamic channel allocation to drastically increase the spectral efficiency and transmission capacity \cite{jinno2009spectrum, geisler2011demonstration}.
+%over a few hundred gigahertz \cite{jinno2009spectrum}. 
+%bandwidth
+Tunable optical filters, reconfigurable in both center wavelength and bandwidth with scalability towards terahertz \cite{geisler2011demonstration}, are essential for these applications.
+Such large bandwidth tunability is currently only available in bulky bench-top systems using diffractive grating spectrometers or liquid crystals.
+Integrated solutions are desired for lower cost and power consumption.
+In particular, silicon photonics  based on the submicron silicon-on-insulator platform allows for CMOS compatible mass fabrication, enabling low cost, high yield, and high-density chip-scale integration.
+Existing solutions for tunable  filters on silicon include devices based on microring resonators \cite{DynamicBW, ong2013ultra} and Mach-Zehnder interferometers (MZIs). These devices have relatively small tunable bandwidth (less than 200 GHz) and small free spectral ranges (FSRs) (typically less than 10 nm), not suitable for high-capacity transmission applications.
 
 Contra-directional couplers(contra-DCs) are grating-assisted add-drop filters \cite{shi2013siliconContraDC}. 
 Analogous to waveguide Bragg gratings, the wavelength selectivity in contra-DCs are based on periodic dielectric perturbations. But instead of backreflections in the same waveguide, the selected wavelength in a contra-DC is dropped to another waveguide through contra-directional coupling.
