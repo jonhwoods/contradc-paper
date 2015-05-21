@@ -32,7 +32,7 @@ normX=xdata; normY=ydata;
 close gcf;
 
 
-open('BestTuningEver.fig');
+open('Filter2Dual.fig');
 % open('Filter2DUAL.fig');
 
 h = gcf; %current figure handle   

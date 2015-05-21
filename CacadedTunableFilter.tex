@@ -125,12 +125,12 @@ While an unapodized (uniform) grating can be simulated with only two transfer ma
 The first change is thus to modify the transfer matrix of the system to the product of all the grating elements along the propagation axis.
 This calculation ideally takes shape in an infinite sum, but for computation simplicity, we use a finite number of steps with different couplings that still approximates the apodization profile with enough accuracy. 
 Our simulations uses  steps of constant length $z_i-z_{i-1}=z_c$. 
-The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-matrix method, where $E(z_0)=C(z_0,z_n) E(z_n)$.
+%The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-matrix method, where $E(z_0)=C(z_0,z_n) E(z_n)$.
 
-\begin{equation}
-\label{eq:CMatrix}
- C(z_0,z_n) =  \prod_{i=1}^{n}\me^{S_{1,i}(z_i-z_{i-1})}\me^{S_{2,i}(z_i-z_{i-1})}
-\end{equation}
+%\begin{equation}
+%\label{eq:CMatrix}
+% C(z_0,z_n) =  \prod_{i=1}^{n}\me^{S_{1,i}(z_i-z_{i-1})}\me^{S_{2,i}(z_i-z_{i-1})}
+%\end{equation}
 
 %with $\Delta\hat{\beta}_{1,2} = \frac{2\pi}{\lambda}n_{\text{eff }1,2}-\frac{\pi}{\Lambda}$ and
 
@@ -159,15 +159,19 @@ The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-
 %\hrulefill
 %\end{figure*}
 
-
 It is possible to easily add phase noise to the transfer matrix solution by adding random noise to the $\Delta\hat{\beta}$ propagation constants. The frequency distribution of the noise will thus match the quantization steps of the matrices, but since the response noise is dependent of both the amplitude and frequency of the sidewall roughness \cite{simard2011impact},we can match the simulation to the experiment by choosing the right noise amplitude.
 
 
 On top of each contra-DC sits a metal strip acting as a microheater for thermal tuning.  
-The refractive index of silicon has a temperature dependence of 1.87$\times10^{-4}$K$^{-1}$ at room temperature for wavelengths around 1550 nm~\cite{frey2006temperature}.
+The refractive index of silicon has a temperature dependence of $\frac{\diff{n_\text{Si}}}{\diff{T}}=$ 1.87$\times10^{-4}$K$^{-1}$ at room temperature for wavelengths around 1550 nm~\cite{frey2006temperature}.
 Without electrical input, the optical responses of the two filters are identical (neglecting fabrication uniformities) resulting in a sharp transition from the pass-band to the stop-band. 
 Applying independent electrical currents on the heaters, we can shift the spectra of the contra-DCs simultaneously or differentially for wavelength or bandwidth tuning.
-In the ideal case, each contra-DC should be uniformly heated so that the apodization profile does not change as the temperature varies.
+In the ideal case, each contra-DC should be uniformly heated so that the apodization profile isn't disturbed as the temperature varies.
+
+In simulation, the temperature dependence is accounted for by increasing the effective index according to 
+$\diff{n_\text{eff}}=\frac{\diff{n_\text{Si}}}{\diff{T}}*\frac{\diff{n_\text{eff}}}{\diff{n_\text{Si}}}*\diff{T}$, where $\frac{\diff{n_\text{eff}}}{\diff{n_\text{Si}}}$ is calculated using an eigenmode solver.
+
+
 
 
 %\section{Experiment}
@@ -179,7 +183,7 @@ The measurements were normalized using the response of a pair of directly connec
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.99\columnwidth]{data/Passive6}
-\caption{ Spectral response of the cascaded filters without heating: 1-dB BW is 733 GHz, 3-dB BW is 788 GHz, 10-dB BW is 868 GHz, and 20-dB BW is 990 GHz. Inset shows the filter shape up to -20 dB, which is typical in communications.}
+\caption{ Spectral response of the cascaded filters without heating: 1-dB BW is 733 GHz, 3-dB BW is 788 GHz, 10-dB BW is 868 GHz, and 20-dB BW is 990 GHz. Inset shows the filter shape up to -20 dB, which is the typical communication requirement.}
 \label{fig:passive}
 \end{figure}
 
@@ -197,7 +201,7 @@ The power efficiency of the bandwidth tuning is about 24 mW/nm, which can signif
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.99\columnwidth]{data/Band6}
-\caption{Spectral response of the device for different temperatures applied to only one contra-DC: 1-dB BW tuned down to 65 GHz, 3-dB BW to 117 GHz. The temperatures are obtained from simulation fit.}
+\caption{Spectral response of the device for different temperatures applied to only one contra-DC: 1-dB BW tuned down to 65 GHz, 3-dB BW to 117 GHz. The temperatures are obtained from simulation fit. Inset shows the temperature dependence.}
 \label{fig:bandTune}
 \end{figure} 
 
@@ -207,7 +211,7 @@ The power efficiency of the wavelength tuning is about 44 mW/nm, which is about 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.99\columnwidth]{data/Central2}
-\caption{Spectral response with the heat applied to both contra-DCs: the central wavelength is tuned from 1535 nm to 1539 nm continuously; the temperatures are calculated by comparison to simulation.}
+\caption{Spectral response with the heat applied to both contra-DCs: the central wavelength is tuned from 1535 nm to 1539 nm continuously; the temperatures are calculated by comparison to simulation. Inset shows the temperature dependence.}
 \label{fig:wavTune}
 \end{figure} 
 
