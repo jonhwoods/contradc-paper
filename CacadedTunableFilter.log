@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 AUG 2015 12:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 AUG 2015 13:38
 entering extended mode
 **CacadedTunableFilter.tex
 (F:\GitHub\contradc-paper\CacadedTunableFilter.tex
@@ -855,7 +855,7 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 <data/Passive61.pdf, id=21, 451.6875pt x 301.125pt>
 File: data/Passive61.pdf Graphic file (type pdf)
  <use data/Passive61.pdf>
-Package pdftex.def Info: data/Passive61.pdf used on input line 193.
+Package pdftex.def Info: data/Passive61.pdf used on input line 195.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 
 [2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/P
@@ -868,14 +868,14 @@ Package epstopdf Info: Source file: <data/Band6.eps>
 (epstopdf)                    size: 23258 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Band6-eps-converted-to
 .pdf data/Band6.eps>
-(epstopdf)             \includegraphics on input line 213.
+(epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Band6-eps-converted-to.pdf, id=86, 451.6875pt x 301.125pt>
 File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Band6-eps-converted-to.pdf>
-Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 213
+Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 215
 .
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 Package epstopdf Info: Source file: <data/Central2.eps>
@@ -886,7 +886,7 @@ Package epstopdf Info: Source file: <data/Central2.eps>
 (epstopdf)                    size: 25431 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Central2-eps-converted
 -to.pdf data/Central2.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Central2-eps-converted-to.pdf, id=87, 451.6875pt x 301.125pt>
@@ -894,7 +894,7 @@ File: data/Central2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Central2-eps-converted-to.pdf>
 Package pdftex.def Info: data/Central2-eps-converted-to.pdf used on input line 
-223.
+225.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 Package epstopdf Info: Source file: <data/Phase2.eps>
 (epstopdf)                    date: 2015-08-11 12:11:11
@@ -904,7 +904,7 @@ Package epstopdf Info: Source file: <data/Phase2.eps>
 (epstopdf)                    size: 23362 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Phase2-eps-converted-t
 o.pdf data/Phase2.eps>
-(epstopdf)             \includegraphics on input line 264.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Phase2-eps-converted-to.pdf, id=88, 451.6875pt x 297.11pt>
@@ -912,7 +912,7 @@ File: data/Phase2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Phase2-eps-converted-to.pdf>
 Package pdftex.def Info: data/Phase2-eps-converted-to.pdf used on input line 26
-4.
+6.
 (pdftex.def)             Requested size: 243.54135pt x 160.19673pt.
  [3 <F:/GitHub/contradc-paper/data/Band6-eps-converted-to.pdf> <F:/GitHub/contr
 adc-paper/data/Central2-eps-converted-to.pdf>] (F:\GitHub\contradc-paper\Cacade
@@ -924,13 +924,13 @@ Underfull \hbox (badness 2600) in paragraph at lines 43--45
 [4 <F:/GitHub/contradc-paper/data/Phase2-eps-converted-to.pdf>]) [5]
 (F:\GitHub\contradc-paper\CacadedTunableFilter.aux) ) 
 Here is how much of TeX's memory you used:
- 6325 strings out of 493921
- 84680 string characters out of 3144867
- 155653 words of memory out of 3000000
- 9450 multiletter control sequences out of 15000+200000
+ 6324 strings out of 493921
+ 84672 string characters out of 3144867
+ 154653 words of memory out of 3000000
+ 9449 multiletter control sequences out of 15000+200000
  59993 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,8n,26p,609b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,26p,617b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/
 enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
@@ -947,7 +947,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files
 pe1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (5 pages, 605810 bytes).
+Output written on CacadedTunableFilter.pdf (5 pages, 604023 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
