@@ -4,9 +4,9 @@
 %%
 %% The original source files were:
 %%
-%% merlin.mbs  (with options: `head,exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,pgsep-c,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
-%% english.mbs  (with options: `exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,pgsep-c,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
-%% merlin.mbs  (with options: `tail,exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,pgsep-c,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
+%% merlin.mbs  (with options: `head,exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
+%% english.mbs  (with options: `exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
+%% merlin.mbs  (with options: `tail,exlang,seq-no,nm-init,ed-au,yr-par,xmth,tit-qq,bt-qq,jttl-rm,thtit-a,vol-bf,vnum-x,volp-com,num-xser,ser-ed,jnm-x,pub-date,pre-pub,edby,edbyy,blk-com,blknt,english,pp,ed,abr,ednx,ord,jabr,etal-xc,etal-it,nfss,,{}')
 %% ----------------------------------------
 %% *** OSA BibTeX style file ***
 %% 
@@ -558,42 +558,8 @@ FUNCTION {output.bibitem}
   before.all 'output.state :=
 }
 
-FUNCTION {if.digit}
-{ duplicate$ "0" =
-  swap$ duplicate$ "1" =
-  swap$ duplicate$ "2" =
-  swap$ duplicate$ "3" =
-  swap$ duplicate$ "4" =
-  swap$ duplicate$ "5" =
-  swap$ duplicate$ "6" =
-  swap$ duplicate$ "7" =
-  swap$ duplicate$ "8" =
-  swap$ "9" = or or or or or or or or or
-}
-FUNCTION {n.separate}
-{ 't :=
-  ""
-  #0 'numnames :=
-  { t empty$ not }
-  { t #-1 #1 substring$ if.digit
-      { numnames #1 + 'numnames := }
-      { #0 'numnames := }
-    if$
-    t #-1 #1 substring$ swap$ *
-    t #-2 global.max$ substring$ 't :=
-    numnames #5 =
-      { duplicate$ #1 #2 substring$ swap$
-        #3 global.max$ substring$
-        "," swap$ * *
-      }
-      'skip$
-    if$
-  }
-  while$
-}
 FUNCTION {n.dashify}
 {
-  n.separate
   't :=
   ""
     { t empty$ not }

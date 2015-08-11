@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  19 MAY 2015 15:09
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 AUG 2015 13:38
->>>>>>> origin/master
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  11 AUG 2015 15:34
 entering extended mode
 **CacadedTunableFilter.tex
 
@@ -747,27 +743,9 @@ Class revtex4-1 Info: multicol was not loaded (OK!) on input line 36.
 LaTeX Warning: Unused global option(s):
     [osajnl].
 
-<<<<<<< HEAD
 
 ("C:\Users\Jonathan St-Yves\Documents\GitHub\contradc-paper\CacadedTunableFilte
 r.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-=======
-(F:\GitHub\contradc-paper\CacadedTunableFilter.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
@@ -782,9 +760,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
->>>>>>> origin/master
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 36.
@@ -885,55 +861,35 @@ File: data/Passive61.pdf Graphic file (type pdf)
 Package pdftex.def Info: data/Passive61.pdf used on input line 195.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 
-[2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/P
-assive61.pdf>]
+[2 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/FigApod.png>
+ <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Passive61.pdf>
+]
 Package epstopdf Info: Source file: <data/Band6.eps>
-<<<<<<< HEAD
-(epstopdf)                    date: 2015-05-19 14:47:20
-(epstopdf)                    size: 37409 bytes
-(epstopdf)             Output file: <data/Band6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 14:47:20
-(epstopdf)                    size: 22995 bytes
-=======
-(epstopdf)                    date: 2015-05-21 10:07:14
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 38954 bytes
 (epstopdf)             Output file: <data/Band6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 10:07:16
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 23258 bytes
->>>>>>> origin/master
 (epstopdf)             Command: <epstopdf --outfile=data/Band6-eps-converted-to
 .pdf data/Band6.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
-
-<data/Band6-eps-converted-to.pdf, id=86, 451.6875pt x 301.125pt>
+ <data/Band6-eps-converted-to.pdf, id=86, 451.6875pt x 301.125pt>
 File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Band6-eps-converted-to.pdf>
 Package pdftex.def Info: data/Band6-eps-converted-to.pdf used on input line 215
 .
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
-<<<<<<< HEAD
-Package epstopdf Info: Source file: <data/Central.eps>
-(epstopdf)                    date: 2015-05-19 14:36:31
-(epstopdf)                    size: 37802 bytes
-(epstopdf)             Output file: <data/Central-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 14:36:31
-(epstopdf)                    size: 24517 bytes
-(epstopdf)             Command: <epstopdf --outfile=data/Central-eps-converted-
-to.pdf data/Central.eps>
-(epstopdf)             \includegraphics on input line 203.
-=======
 Package epstopdf Info: Source file: <data/Central2.eps>
-(epstopdf)                    date: 2015-05-21 10:07:35
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 40865 bytes
 (epstopdf)             Output file: <data/Central2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 10:07:37
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 25431 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Central2-eps-converted
 -to.pdf data/Central2.eps>
 (epstopdf)             \includegraphics on input line 225.
->>>>>>> origin/master
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Central2-eps-converted-to.pdf, id=87, 451.6875pt x 301.125pt>
@@ -943,120 +899,62 @@ File: data/Central2-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: data/Central2-eps-converted-to.pdf used on input line 
 225.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
-<<<<<<< HEAD
- [2 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/FigApod.png
-> <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Passive6.pdf>
-]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 207.
-
-Package epstopdf Info: Source file: <data/Phase.eps>
-(epstopdf)                    date: 2015-05-19 14:36:31
-(epstopdf)                    size: 34716 bytes
-(epstopdf)             Output file: <data/Phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-19 14:36:31
-(epstopdf)                    size: 23675 bytes
-(epstopdf)             Command: <epstopdf --outfile=data/Phase-eps-converted-to
-.pdf data/Phase.eps>
-(epstopdf)             \includegraphics on input line 244.
-=======
 Package epstopdf Info: Source file: <data/Phase2.eps>
-(epstopdf)                    date: 2015-08-11 12:11:11
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 34253 bytes
 (epstopdf)             Output file: <data/Phase2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-11 12:24:42
+(epstopdf)                    date: 2015-08-11 14:04:27
 (epstopdf)                    size: 23362 bytes
 (epstopdf)             Command: <epstopdf --outfile=data/Phase2-eps-converted-t
 o.pdf data/Phase2.eps>
 (epstopdf)             \includegraphics on input line 266.
->>>>>>> origin/master
 Package epstopdf Info: Output file is already uptodate.
 
 <data/Phase2-eps-converted-to.pdf, id=88, 451.6875pt x 297.11pt>
 File: data/Phase2-eps-converted-to.pdf Graphic file (type pdf)
 
-<<<<<<< HEAD
-("C:\Users\Jonathan St-Yves\Documents\GitHub\contradc-paper\CacadedTunableFilte
-r.bbl" [3 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Band6
--eps-converted-to.pdf> <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-pap
-er/data/Central-eps-converted-to.pdf> <C:/Users/Jonathan St-Yves/Documents/GitH
-ub/contradc-paper/data/Phase-eps-converted-to.pdf>]
-Underfull \hbox (badness 2600) in paragraph at lines 38--40
- []\T1/lmr/m/n/9 B. J. Frey, D. B. Levi-ton, and T. J. Madi-son,
- []
-
-) [4]
-("C:\Users\Jonathan St-Yves\Documents\GitHub\contradc-paper\CacadedTunableFilte
-r.aux") ) 
-Here is how much of TeX's memory you used:
- 6225 strings out of 493921
- 83660 string characters out of 3144844
- 158525 words of memory out of 3000000
- 9355 multiletter control sequences out of 15000+200000
- 59887 words of font info for 56 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 42i,8n,26p,552b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
- (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKT
-eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
-/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy5.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (4 pages, 604247 bytes).
-=======
 <use data/Phase2-eps-converted-to.pdf>
 Package pdftex.def Info: data/Phase2-eps-converted-to.pdf used on input line 26
 6.
 (pdftex.def)             Requested size: 243.54135pt x 160.19673pt.
- [3 <F:/GitHub/contradc-paper/data/Band6-eps-converted-to.pdf> <F:/GitHub/contr
-adc-paper/data/Central2-eps-converted-to.pdf>] (F:\GitHub\contradc-paper\Cacade
-dTunableFilter.bbl
+ [3 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Band6-eps-c
+onverted-to.pdf> <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/dat
+a/Central2-eps-converted-to.pdf>]
+("C:\Users\Jonathan St-Yves\Documents\GitHub\contradc-paper\CacadedTunableFilte
+r.bbl"
 Underfull \hbox (badness 2600) in paragraph at lines 43--45
  []\T1/lmr/m/n/9 B. J. Frey, D. B. Levi-ton, and T. J. Madi-son,
  []
 
-[4 <F:/GitHub/contradc-paper/data/Phase2-eps-converted-to.pdf>]) [5]
-(F:\GitHub\contradc-paper\CacadedTunableFilter.aux) ) 
+[4 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Phase2-eps-c
+onverted-to.pdf>]) [5]
+("C:\Users\Jonathan St-Yves\Documents\GitHub\contradc-paper\CacadedTunableFilte
+r.aux") ) 
 Here is how much of TeX's memory you used:
  6324 strings out of 493921
- 84672 string characters out of 3144867
+ 84969 string characters out of 3144844
  154653 words of memory out of 3000000
  9449 multiletter control sequences out of 15000+200000
  59993 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,8n,26p,617b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/
-enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
-m/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
-}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
-m/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (5 pages, 604023 bytes).
->>>>>>> origin/master
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsy7.pfb>
+Output written on CacadedTunableFilter.pdf (5 pages, 604160 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
