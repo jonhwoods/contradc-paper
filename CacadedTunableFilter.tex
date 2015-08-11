@@ -14,7 +14,8 @@
 \documentclass[osajnl,twocolumn,showpacs,superscriptaddress,10pt]{revtex4-1}
 %\usepackage{osameet2}
 
-
+%\newcommand{\EDIT}{}
+\usepackage{ulem}
 
 \usepackage{amsmath,amssymb}
 \newcommand{\me}{\mathrm{e}}
@@ -33,7 +34,7 @@
 %\setlength{\bibsep}{2.0pt}
 
 \begin{document}
-\title{Widely Bandwidth-Tunable Broadband Optical Filter on Silicon}
+\title{Ultra-compact, widely bandwidth-tunable filter using cascaded silicon photonic contra-directional couplers}
 %\date{14/10/2014}
 
 \author{Jonathan St-Yves} 
@@ -45,8 +46,11 @@
 
 
 \begin{abstract}
-We demonstrate an integrated silicon tunable band-pass filter with low in-band ripples of 0.3 dB, a high contrast of 55 dB, and no free-spectral range. 
-A record bandwidth tuning from 788 to 117 GHz was achieved.
+%We demonstrate an integrated silicon tunable band-pass filter with low in-band ripples of 0.3 dB, a high contrast of 55 dB, and no free-spectral range. 
+%A record bandwidth tuning from 788 to 117 GHz was achieved.
+
+
+We demonstrate an integrated tunable band-pass filter continuously tuned from 788 GHz down to 117 GHz of 3 dB bandwidth with up to 3 nm of central wavelength tunability at 1550 nm. The out of band contrast is up to 55 dB, the in band ripples are under 0.3 dB and the free spectral range is unlimited. This result was achieved using contra-directional couplers and micro-heaters on the silicon-on-insulator platform with a footprint of less than 0.007 mm$^2$.
 \end{abstract}
 
 \pacs{ (130.7408) Wavelength filtering devices; (350.2770) Gratings}
@@ -58,15 +62,20 @@ A record bandwidth tuning from 788 to 117 GHz was achieved.
 %\section{Introduction}
 
 
-Optical filters are essential components for optical communication applications such as wavelength-division multiplexing (WDM), signal processing, and dynamic bandwidth allocation \cite{DynamicBW}.
-These key devices are now needed in integrated photonic systems, in this case, on the silicon-on-insulator platform (SOI), to achieve the same functions as traditional discrete optical components such as diffractive grating spectrometers. 
-Silicon photonics allows for CMOS compatible mass fabrication for low cost, high yield, and large-scale on-chip integration. 
-Future high-capacity transmission systems, e.g., applying the super-channel technique, will require a dynamic channel bandwidth allocation over a few hundred gigahertz \cite{jinno2009spectrum}. 
-However, large bandwidth tunability is currently only available in bulky bench-top systems. Existing integrated tunable filters, e.g., using microring resonators and MZ interferometers, have relatively small tunable bandwidth (less than 200 GHz)  \cite{ong2013ultra}. 
-Also, their free spectral ranges (FSRs) are small, typically less than 10 nm \cite{ong2013ultra}. 
+%Next-generation optical transmission systems require dynamic, efficient bandwidth allocation  
+%Bandwidth tunable optical filters are essential components for optical communication applications such as reconfigurable optical wavelength-division multiplexing (WDM), signal processing, and dynamic bandwidth allocation \cite{DynamicBW}.
+%These key devices are now needed in integrated photonic systems, in this case, on the silicon-on-insulator platform (SOI), to achieve the same functions as traditional discrete optical components such as diffractive grating spectrometers. 
+Next-generation optical transmission systems applying flexible networking and the super-channel technique will require highly dynamic channel allocation to drastically increase the spectral efficiency and transmission capacity \cite{jinno2009spectrum, geisler2011demonstration}.
+%over a few hundred gigahertz \cite{jinno2009spectrum}. 
+%bandwidth
+Tunable optical filters, reconfigurable in both center wavelength and bandwidth with scalability towards terahertz \cite{geisler2011demonstration}, are essential for these applications.
+Such large bandwidth tunability is currently only available in bulky bench-top systems using diffractive grating spectrometers or liquid crystals.
+Integrated solutions are desired for lower cost and power consumption.
+In particular, silicon photonics  based on the sub-micron silicon-on-insulator platform allows for CMOS compatible mass fabrication, enabling low cost, high yield, and high-density chip-scale integration.
+Existing solutions for tunable  filters on silicon include devices based on microring resonators \cite{DynamicBW, ong2013ultra} and Mach-Zehnder interferometers (MZIs). These devices have relatively small tunable bandwidth (less than 200 GHz) and small free spectral ranges (FSRs) (typically less than 10 nm), not suitable for high-capacity transmission applications.
 
 Contra-directional couplers(contra-DCs) are grating-assisted add-drop filters \cite{shi2013siliconContraDC}. 
-Analogous to waveguide Bragg gratings, the wavelength selectivity in contra-DCs are based on periodic dielectric perturbations. But instead of backreflections in the same waveguide, the selected wavelength in a contra-DC is dropped to another waveguide through contra-directional coupling.
+Analogous to waveguide Bragg gratings, the wavelength selectivity in contra-DCs are based on periodic dielectric perturbations. But instead of back-reflections in the same waveguide, the selected wavelength in a contra-DC is dropped to another waveguide through contra-directional coupling.
 This allows add-drop operation without the need of a circulator. 
 Contra-DCs have merits of compactness, flat-top response, flexible filter design (e.g, through apodization), and near-infinite FSR (in the case of first-order gratings).
 In particular, they allow for very high bandwidths (greater than 10 nm) and thus can support very-high-baud-rate super-channel signals \cite{jinno2009spectrum}.
@@ -89,7 +98,7 @@ The schematic of the proposed device is shown in Fig.~\ref{fig:schematic}.
 It consists of a pair of cascaded contra-DCs, each operating as an add-drop filter. 
 The drop port of the first contra-DC is connected to the input port of the second contra-DC. 
 Therefore, the finally dropped signal is determined by the product of the  drop-port transfer functions of the two contra-DCs. The center wavelength of a contra-DC is determined by the phase-match condition: $\lambda_\text{c} = \Lambda (n_\text{1}+n_\text{2})$, where $\lambda_\text{c}$ is the center wavelength of contra-directional coupling, $\Lambda$ is the grating pitch, and $n_\text{1}$ and $n_\text{2}$ are the effective refractive indices of the first-order and second-order eigenmodes in the coupler. 
-Assuming identical filter designs (i.e., same window functions and parameters) of the cascaded contra-DCs, the bandwidth of the finally dropped signal can be tuned by detuning their center wavelengths.
+Assuming identical filter designs (i.e., same window functions and parameters) of the cascaded contra-DCs, the bandwidth of the finally dropped signal can be tuned by detuning their central wavelengths.
 
 
 
@@ -105,7 +114,7 @@ A broadband filter design for a coarse WDM on the 220-nm SOI platform \cite{shi2
 In each contra-DC, the widths of the waveguides are of 560 and 440 nm.
 This high asymmetry ensures a negligible forward coupling. 
 The gratings are formed by sidewall corrugations in strip waveguides with a pitch of 312 nm. 
-The spacing between the waveguides varies between 65 and 135 nm with a Gaussian profile as shown in Fig.~\ref{fig:SEM} for efficient sidelobe suppression, for which details can be found in \cite{shi2013siliconCWDM}.
+The spacing between the waveguides varies between 65 and 135 nm to produce a Gaussian coupling profile apodization as shown in Fig.~\ref{fig:SEM} for efficient sidelobe suppression, for which details can be found in \cite{shi2013siliconCWDM}.
 The spectral responses of each contra-DC is calculated using coupled mode theory, following the same procedure as in  \cite{shi2013siliconContraDC}, with three additions: apodization, temperature and noise simulation.
 
 %The first part in predicting the contra-directional coupler spectrum is to compute the dielectric variation caused by the perturbation $\Delta\varepsilon(x,y)$ which is $\varepsilon_0/\pi*(n_{max}(x,y)^2-n_{min}(x,y)^2)$ where the $1/\pi$ factor is the first Fourier expansion coefficient in the case of a square shaped perturbation. 
@@ -117,14 +126,15 @@ The spectral responses of each contra-DC is calculated using coupled mode theory
 
 While an unapodized (uniform) grating can be simulated with only two transfer matrices , $S_1$ and $S_2$ \cite{shi2013siliconContraDC}, an apodized one needs both of these matrices for each step along the propagation, to match the change of coupling. 
 The first change is thus to modify the transfer matrix of the system to the product of all the grating elements along the propagation axis.
-This calculation ideally takes shape in an infinite sum, but for computation simplicity, we use a finite number of steps with different couplings that still approximates the apodization profile with enough accuracy. 
-Our simulations uses  steps of constant length $z_i-z_{i-1}=z_c$. 
-The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-matrix method, where $E(z_0)=C(z_0,z_n) E(z_n)$.
+Our simulations use 100 segments to approximate the constantly changing coupling.
+%This calculation ideally takes shape in an infinite sum, but for computation simplicity, we use a finite number of steps with different couplings that still approximates the apodization profile with enough accuracy. 
+%Our simulations uses  steps of constant length $z_i-z_{i-1}=z_c$. 
+%The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-matrix method, where $E(z_0)=C(z_0,z_n) E(z_n)$.
 
-\begin{equation}
-\label{eq:CMatrix}
- C(z_0,z_n) =  \prod_{i=1}^{n}\me^{S_{1,i}(z_i-z_{i-1})}\me^{S_{2,i}(z_i-z_{i-1})}
-\end{equation}
+%\begin{equation}
+%\label{eq:CMatrix}
+% C(z_0,z_n) =  \prod_{i=1}^{n}\me^{S_{1,i}(z_i-z_{i-1})}\me^{S_{2,i}(z_i-z_{i-1})}
+%\end{equation}
 
 %with $\Delta\hat{\beta}_{1,2} = \frac{2\pi}{\lambda}n_{\text{eff }1,2}-\frac{\pi}{\Lambda}$ and
 
@@ -154,14 +164,24 @@ The total response of a contra-DC $C(z_0,z_n)$ is calculated using the transfer-
 %\end{figure*}
 
 
-It is possible to easily add phase noise to the transfer matrix solution by adding random noise to the $\Delta\hat{\beta}$ propagation constants. The frequency distribution of the noise will thus match the quantization steps of the matrices, but since the response noise is dependent of both the amplitude and frequency of the sidewall roughness \cite{simard2011impact},we can match the simulation to the experiment by choosing the right noise amplitude.
+It is possible to easily add phase noise to the transfer matrix solution by adding random noise to the $\Delta\hat{\beta}$ propagation constants. 
+The frequency distribution of the noise will thus match the quantization steps of the matrices, but since the response noise is dependent of both the amplitude and frequency of the sidewall roughness \cite{simard2011impact},we can match the simulation to the experiment by choosing the right noise amplitude.
 
 
-On top of each contra-DC sits a metal strip acting as a microheater for thermal tuning.  
-The refractive index of silicon has a temperature dependence of 1.87$\times10^{-4}$K$^{-1}$ at room temperature for wavelengths around 1550 nm~\cite{frey2006temperature}.
+On top of each contra-DC sits a metal strip acting as a micro-heater for thermal tuning.  
+The refractive index of silicon has a temperature dependence of $\frac{\diff{n_\text{Si}}}{\diff{T}}=$ 1.87$\times10^{-4}$K$^{-1}$ at room temperature for wavelengths around 1550 nm~\cite{frey2006temperature}.
 Without electrical input, the optical responses of the two filters are identical (neglecting fabrication uniformities) resulting in a sharp transition from the pass-band to the stop-band. 
 Applying independent electrical currents on the heaters, we can shift the spectra of the contra-DCs simultaneously or differentially for wavelength or bandwidth tuning.
-In the ideal case, each contra-DC should be uniformly heated so that the apodization profile does not change as the temperature varies.
+In the ideal case, each contra-DC should be uniformly heated so that the apodization profile isn't disturbed as the temperature varies.
+
+In simulation, the temperature dependence is accounted for by increasing the effective index according to 
+$\diff{n_\text{eff}}=\frac{\diff{n_\text{Si}}}{\diff{T}}*\frac{\diff{n_\text{eff}}}{\diff{n_\text{Si}}}*\diff{T}$, where $\frac{\diff{n_\text{eff}}}{\diff{n_\text{Si}}}$ is calculated using an eigenmode solver.
+
+While only coupling apodization has been discussed so far, it is common in Bragg grating profiles to also adjust the local Bragg wavelength. This is done with a phase shift changing the local effective index or period. This design only uses coupling apodization in principle, but phase noise also appears during fabrication due to non-uniformity and sidewall roughness.
+There are 2 main types of waveguide noise. High frequency roughness(typically around 10 $\mu$m of spacial period\cite{simard2013characterization}), which is caused by sidewall roughness and decreases the sidelobe suppression. Low frequency variation(larger than the device or 300 $\mu$m), which is caused by wafer thickness and etching variance, causes a linear chirp that increases the bandwidth; and coupling dependent, which is due to an index difference between low coupling and high coupling regions.
+
+It is possible to easily add high frequency phase noise to the transfer matrix solution by adding random noise to the $\Delta\hat{\beta}$ propagation constants. The frequency distribution of the noise will thus match the quantization steps of the matrices, but since the response noise is dependent of both the amplitude and frequency of the sidewall roughness \cite{simard2011impact},we can match the simulation to the experiment by choosing the right noise amplitude.
+Similarly, we can also add a variation to $\Delta\hat{\beta}$ which is dependent on the longitudinal position and the local coupling does not change as the temperature varies.
 
 
 %\section{Experiment}
@@ -172,8 +192,8 @@ Fig.~\ref{fig:passive} shows the measured drop port response of the cascaded con
 The measurements were normalized using the response of a pair of directly connected fiber grating couplers on the same chip.
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.99\columnwidth]{data/Passive6}
-\caption{ Spectral response of the cascaded filters without heating: 1-dB BW is 733 GHz, 3-dB BW is 788 GHz, 10-dB BW is 868 GHz, and 20-dB BW is 990 GHz.}
+\includegraphics[width=.99\columnwidth]{data/Passive61}
+\caption{ Spectral response of the cascaded filters without heating: 1-dB BW is 733 GHz, 3-dB BW is 788 GHz, 10-dB BW is 868 GHz, and 20-dB BW is 990 GHz. Inset shows the filter shape up to -20 dB, which is the typical communication requirement.}
 \label{fig:passive}
 \end{figure}
 
@@ -188,10 +208,12 @@ As a result, the side-lobes suppression degrades  for small bandwidths but is st
 The smallest bandwidth measured in this case was limited by the maximal power delivered before the metal heaters (300-nm-thick, 2-$\mu$m-wide Al strips) were damaged. A smaller bandwidth below 50 GHz should be feasible if more robust heaters are used.
 The power efficiency of the bandwidth tuning is about 24 mW/nm, which can significantly improved by optimizing the heater design, e.g., using smaller heater features and thermal isolation \cite{dong2010thermally}.
 
+We observe that the central wavelength at higher temperature is out of the original band, indicating thermal coupling between the two filters. Also, the side-lobes suppression ratio is lower for smaller bandwidth due to the signal only being affected by one filter. To solve both of these problems, next generation devices should use a isolation or larger spacing between filter elements (we used 12 \text{$\mu$}m center to center) and additional filtering stages.
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.99\columnwidth]{data/Band6}
-\caption{Spectral response of the device for different temperatures applied to only one contra-DC: 1-dB BW tuned down to 65 GHz, 3-dB BW to 117 GHz. The temperatures are obtained from simulation fit.}
+\caption{Spectral response of the device for different temperatures applied to only one contra-DC: 1-dB BW tuned down to 65 GHz, 3-dB BW to 117 GHz. The temperatures are obtained from simulation fit. Inset shows the temperature dependence.}
 \label{fig:bandTune}
 \end{figure} 
 
@@ -200,8 +222,8 @@ As shown in Fig.~\ref{fig:wavTune}, when the center wavelength is continually ch
 The power efficiency of the wavelength tuning is about 44 mW/nm, which is about twice the power consumption of the bandwidth tuning since two contra-DCs are heated simultaneously.
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.99\columnwidth]{data/Central}
-\caption{Spectral response with the heat applied to both contra-DCs: the central wavelength is tuned from 1535 nm to 1539 nm continuously; the temperatures are calculated by comparison to simulation.}
+\includegraphics[width=.99\columnwidth]{data/Central2}
+\caption{Spectral response with the heat applied to both contra-DCs: the central wavelength is tuned from 1535 nm to 1539 nm continuously; the temperatures are calculated by comparison to simulation. Inset shows the temperature dependence.}
 \label{fig:wavTune}
 \end{figure} 
 
@@ -241,15 +263,16 @@ The power efficiency of the wavelength tuning is about 44 mW/nm, which is about 
 An other important parameter to monitor is the group delay of the device. An uneven delay can cause distortion during detection of the signal, just like dispersion. The simulation and measurements seen in Fig.~\ref{fig:phase} both show a group delay difference of less then 10 ps.
 \begin{figure}[tbp]
 \centering
-\includegraphics[width=.99\columnwidth]{data/Phase}
+\includegraphics[width=.99\columnwidth]{data/Phase2}
 \caption{ Group delay response of the tunable filter at the drop port. The delay stays within 12 ps between any two points in the band. The out of band results are noisy due to the weak signal.}
 \label{fig:phase}
 \end{figure}
 
+Table \ref{table:comparison} shows a comparison of this filter with other recent publications of tunable filters. No other tunable filter has such a large available bandwidth and FSR, making contra-DC unique in their application potential.
+
 
 %\section{Conclusion}
 In summary, we have demonstrated a bandwidth tunable filter with a low insertion loss of less then 0.5 dB, low ripples of less than 0.3 dB, a large maximal bandwidth of greater than 750 GHz, and high contrast of 55 dB. 
-Compared to other devices based on microring resonators and MZIs (see Table \ref{table:comparison}), it enables a much larger maximal passband and does not suffer from small FSRs. 
 A large bandwidth tuning range over 670 GHz has been achieved, which, to the best of our knowledge, is the widest ever demonstrated on a silicon chip. 
 This ultra-wide bandwidth tunability makes the device very attractive for next-generation ultrahigh baud-rate applications (e.g., high-capacity super-channel transmissions) and flexible optical networking. 
 
@@ -264,9 +287,9 @@ This ultra-wide bandwidth tunability makes the device very attractive for next-g
     % \\
     %Alipour (2011) &	Cascaded MRs &	5 GHz / 650 Ghz &	0.8-5 GHz &	1.25-3.75 dB &	38 dB
     % \\
-    Ding (2011) &	MRs + MZI &	55 GHz / 1 THz &	28-55 GHz &	3.6 dB &	30 dB
+    Ding (2011)\cite{ding2011bandwidth} &	MRs + MZI &	55 GHz / 1 THz &	28-55 GHz &	3.6 dB &	30 dB
      \\
- 	Orlandi (2012) &	MRs + MZI &	173 GHz / 200 GHz &	23-173 GHz &	0.46-1.06 dB &	15-34 dB
+ 	Orlandi (2012)\cite{orlandi2012reconfigurable} &	MRs + MZI &	173 GHz / 200 GHz &	23-173 GHz &	0.46-1.06 dB &	15-34 dB
       \\
     %Luo (2012) &	Cascaded MRs &	100 GHz / 750 Ghz &	No &	0.3-0.6 dB &	50 dB  \\
     Ong (2013)\cite{ong2013ultra} &	Cascaded MRs &	125 GHz/ 0.9 THz &	11.6-125 GHz &	0.25 dB &	50-100 dB

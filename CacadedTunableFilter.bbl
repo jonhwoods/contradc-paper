@@ -1,17 +1,22 @@
 \begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 
-\bibitem{DynamicBW}
-B.~Zhang, D.~Leuenberger, M.-C.~M. Lee, A.~Willner, and M.~Wu,
-  \enquote{Experimental demonstration of dynamic bandwidth allocation using a
-  mems-actuated bandwidth-tunable microdisk resonator filter,} Photonics
-  Technology Letters, IEEE \textbf{19}, 1508--1510 (2007).
-
 \bibitem{jinno2009spectrum}
 M.~Jinno, H.~Takara, B.~Kozicki, Y.~Tsukishima, Y.~Sone, and S.~Matsuoka,
   \enquote{Spectrum-efficient and scalable elastic optical path network:
   architecture, benefits, and enabling technologies,} Communications Magazine,
   IEEE \textbf{47}, 66--73 (2009).
+
+\bibitem{geisler2011demonstration}
+D.~J. Geisler, N.~K. Fontaine, R.~P. Scott, and S.~Yoo, \enquote{Demonstration
+  of a flexible bandwidth optical transmitter/receiver system scalable to
+  terahertz bandwidths,} Photonics Journal, IEEE \textbf{3}, 1013--1022 (2011).
+
+\bibitem{DynamicBW}
+B.~Zhang, D.~Leuenberger, M.-C.~M. Lee, A.~Willner, and M.~Wu,
+  \enquote{Experimental demonstration of dynamic bandwidth allocation using a
+  mems-actuated bandwidth-tunable microdisk resonator filter,} Photonics
+  Technology Letters, IEEE \textbf{19}, 1508--1510 (2007).
 
 \bibitem{ong2013ultra}
 J.~R. Ong, R.~Kumar, and S.~Mookherjea, \enquote{Ultra-high-contrast and
@@ -38,6 +43,12 @@ A.~D. Simard, N.~Ayotte, Y.~Painchaud, S.~Bedard, and S.~LaRochelle,
 B.~J. Frey, D.~B. Leviton, and T.~J. Madison, \enquote{Temperature-dependent
   refractive index of silicon and germanium,}  (2006).
 
+\bibitem{simard2013characterization}
+A.~D. Simard, G.~Beaudin, V.~Aimez, Y.~Painchaud, and S.~LaRochelle,
+  \enquote{Characterization and reduction of spectral distortions in
+  silicon-on-insulator integrated bragg gratings,} Optics express \textbf{21},
+  23,145--23,159 (2013).
+
 \bibitem{zhong2014focusingFGC}
 Q.~Zhong, V.~Veerasubramanian, Y.~Wang, W.~Shi, D.~Patel, S.~Ghosh, A.~Samani,
   L.~Chrostowski, R.~Bojko, and D.~V. Plant, \enquote{Focusing-curved
@@ -54,5 +65,17 @@ P.~Dong, W.~Qian, H.~Liang, R.~Shafiiha, D.~Feng, G.~Li, J.~E. Cunningham,
   A.~V. Krishnamoorthy, and M.~Asghari, \enquote{Thermally tunable silicon
   racetrack resonators with ultralow tuning power,} Optics express \textbf{18},
   20,298--20,304 (2010).
+
+\bibitem{ding2011bandwidth}
+Y.~Ding, M.~Pu, L.~Liu, J.~Xu, C.~Peucheret, X.~Zhang, D.~Huang, and H.~Ou,
+  \enquote{Bandwidth and wavelength-tunable optical bandpass filter based on
+  silicon microring-mzi structure,} Optics express \textbf{19}, 6462--6470
+  (2011).
+
+\bibitem{orlandi2012reconfigurable}
+P.~Orlandi, C.~Ferrari, M.~J. Strain, A.~Canciamilla, F.~Morichetti, M.~Sorel,
+  P.~Bassi, and A.~Melloni, \enquote{Reconfigurable silicon filter with
+  continuous bandwidth tunability,} Optics letters \textbf{37}, 3669--3671
+  (2012).
 
 \end{thebibliography}
