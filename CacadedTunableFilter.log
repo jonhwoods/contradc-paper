@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 JUN 2015 15:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.12)  11 AUG 2015 12:31
 entering extended mode
 **CacadedTunableFilter.tex
 (F:\GitHub\contradc-paper\CacadedTunableFilter.tex
@@ -852,14 +852,14 @@ r/data/CascadedSchematic2.png>]
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 119.
 
-<data/Passive6.pdf, id=21, 451.6875pt x 301.125pt>
-File: data/Passive6.pdf Graphic file (type pdf)
- <use data/Passive6.pdf>
-Package pdftex.def Info: data/Passive6.pdf used on input line 193.
+<data/Passive61.pdf, id=21, 451.6875pt x 301.125pt>
+File: data/Passive61.pdf Graphic file (type pdf)
+ <use data/Passive61.pdf>
+Package pdftex.def Info: data/Passive61.pdf used on input line 193.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
 
 [2 <F:/GitHub/contradc-paper/data/FigApod.png> <F:/GitHub/contradc-paper/data/P
-assive6.pdf>]
+assive61.pdf>]
 Package epstopdf Info: Source file: <data/Band6.eps>
 (epstopdf)                    date: 2015-05-21 10:07:14
 (epstopdf)                    size: 38954 bytes
@@ -870,7 +870,8 @@ Package epstopdf Info: Source file: <data/Band6.eps>
 .pdf data/Band6.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
- <data/Band6-eps-converted-to.pdf, id=80, 451.6875pt x 301.125pt>
+
+<data/Band6-eps-converted-to.pdf, id=86, 451.6875pt x 301.125pt>
 File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Band6-eps-converted-to.pdf>
@@ -888,30 +889,30 @@ Package epstopdf Info: Source file: <data/Central2.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Central2-eps-converted-to.pdf, id=81, 451.6875pt x 301.125pt>
+<data/Central2-eps-converted-to.pdf, id=87, 451.6875pt x 301.125pt>
 File: data/Central2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Central2-eps-converted-to.pdf>
 Package pdftex.def Info: data/Central2-eps-converted-to.pdf used on input line 
 223.
 (pdftex.def)             Requested size: 243.54135pt x 162.36154pt.
-Package epstopdf Info: Source file: <data/Phase.eps>
-(epstopdf)                    date: 2015-05-11 18:08:17
-(epstopdf)                    size: 34716 bytes
-(epstopdf)             Output file: <data/Phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-11 18:08:22
-(epstopdf)                    size: 23675 bytes
-(epstopdf)             Command: <epstopdf --outfile=data/Phase-eps-converted-to
-.pdf data/Phase.eps>
+Package epstopdf Info: Source file: <data/Phase2.eps>
+(epstopdf)                    date: 2015-08-11 12:11:11
+(epstopdf)                    size: 34253 bytes
+(epstopdf)             Output file: <data/Phase2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-11 12:24:42
+(epstopdf)                    size: 23362 bytes
+(epstopdf)             Command: <epstopdf --outfile=data/Phase2-eps-converted-t
+o.pdf data/Phase2.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Phase-eps-converted-to.pdf, id=82, 451.6875pt x 297.11pt>
-File: data/Phase-eps-converted-to.pdf Graphic file (type pdf)
+<data/Phase2-eps-converted-to.pdf, id=88, 451.6875pt x 297.11pt>
+File: data/Phase2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use data/Phase-eps-converted-to.pdf>
-Package pdftex.def Info: data/Phase-eps-converted-to.pdf used on input line 264
-.
+<use data/Phase2-eps-converted-to.pdf>
+Package pdftex.def Info: data/Phase2-eps-converted-to.pdf used on input line 26
+4.
 (pdftex.def)             Requested size: 243.54135pt x 160.19673pt.
  [3 <F:/GitHub/contradc-paper/data/Band6-eps-converted-to.pdf> <F:/GitHub/contr
 adc-paper/data/Central2-eps-converted-to.pdf>] (F:\GitHub\contradc-paper\Cacade
@@ -920,11 +921,11 @@ Underfull \hbox (badness 2600) in paragraph at lines 43--45
  []\T1/lmr/m/n/9 B. J. Frey, D. B. Levi-ton, and T. J. Madi-son,
  []
 
-[4 <F:/GitHub/contradc-paper/data/Phase-eps-converted-to.pdf>]) [5]
+[4 <F:/GitHub/contradc-paper/data/Phase2-eps-converted-to.pdf>]) [5]
 (F:\GitHub\contradc-paper\CacadedTunableFilter.aux) ) 
 Here is how much of TeX's memory you used:
  6325 strings out of 493921
- 84670 string characters out of 3144867
+ 84680 string characters out of 3144867
  155653 words of memory out of 3000000
  9450 multiletter control sequences out of 15000+200000
  59993 words of font info for 57 fonts, out of 3000000 for 9000
@@ -946,9 +947,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files
 pe1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on CacadedTunableFilter.pdf (5 pages, 604364 bytes).
+Output written on CacadedTunableFilter.pdf (5 pages, 605810 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
