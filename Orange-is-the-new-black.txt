@@ -1,0 +1,24 @@
+== 4StageDesignSimu ==
+  1dB:   8.03 nm /  1020.55 GHz 
+ 20dB:  10.94 nm /  1390.42 GHz 
+ Efficiency: 0.734
+
+
+120
+== 4StageDesignSimu ==
+  1dB:   1.00 nm /   126.85 GHz 
+ 20dB:   2.61 nm /   329.82 GHz 
+ Efficiency: 0.385
+
+130
+== 4StageDesignSimu ==
+  1dB:   0.60 nm /    76.07 GHz 
+ 20dB:   2.01 nm /   253.61 GHz 
+ Efficiency: 0.300
+
+
+140
+== 4StageDesignSimu ==
+  1dB:   0.40 nm /    50.70 GHz 
+ 20dB:   1.51 nm /   190.12 GHz 
+ Efficiency: 0.267
