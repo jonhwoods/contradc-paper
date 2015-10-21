@@ -34,11 +34,6 @@ W.~Shi, H.~Yun, C.~Lin, X.~Wang, J.~Flueckiger, N.~Jaeger, and L.~Chrostowski,
   \enquote{CLEO: Science and Innovations,}  (Optical Society of America, 2013),
   pp. CTu3F--5.
 
-\bibitem{simard2011impact}
-A.~D. Simard, N.~Ayotte, Y.~Painchaud, S.~Bedard, and S.~LaRochelle,
-  \enquote{Impact of sidewall roughness on integrated bragg gratings,} Journal
-  of Lightwave Technology \textbf{29}, 3693--3704 (2011).
-
 \bibitem{frey2006temperature}
 B.~J. Frey, D.~B. Leviton, and T.~J. Madison, \enquote{Temperature-dependent
   refractive index of silicon and germanium,}  (2006).
@@ -48,6 +43,11 @@ A.~D. Simard, G.~Beaudin, V.~Aimez, Y.~Painchaud, and S.~LaRochelle,
   \enquote{Characterization and reduction of spectral distortions in
   silicon-on-insulator integrated bragg gratings,} Optics express \textbf{21},
   23145--23159 (2013).
+
+\bibitem{simard2011impact}
+A.~D. Simard, N.~Ayotte, Y.~Painchaud, S.~Bedard, and S.~LaRochelle,
+  \enquote{Impact of sidewall roughness on integrated bragg gratings,} Journal
+  of Lightwave Technology \textbf{29}, 3693--3704 (2011).
 
 \bibitem{zhong2014focusingFGC}
 Q.~Zhong, V.~Veerasubramanian, Y.~Wang, W.~Shi, D.~Patel, S.~Ghosh, A.~Samani,
