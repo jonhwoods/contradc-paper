@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  20 OCT 2015 22:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  21 OCT 2015 19:53
 entering extended mode
 **CacadedTunableFilter.tex
 
@@ -1372,11 +1372,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
 Here is how much of TeX's memory you used:
  13764 strings out of 493921
  206258 string characters out of 3144844
- 434183 words of memory out of 3000000
+ 434181 words of memory out of 3000000
  16479 multiletter control sequences out of 15000+200000
  96007 words of font info for 275 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,18n,45p,687b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,18n,45p,688b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
@@ -1389,7 +1389,7 @@ w/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
 
-Output written on CacadedTunableFilter.pdf (4 pages, 540471 bytes).
+Output written on CacadedTunableFilter.pdf (4 pages, 540370 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{caverley2015measurement}
+M.~Caverley, N.~A. Jaeger, and L.~Chrostowski, \enquote{Measurement of optical
+  losses in silicon photonic contra-directional couplers,} in
+  \enquote{Photonics North, 2015,}  (IEEE, 2015), pp. 1--1.
+
+\end{thebibliography}
