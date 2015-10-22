@@ -27,7 +27,7 @@
 
 
 
-\title{Compact and widely bandwidth-tunable silicon filter with an unlimited free-spectral range}
+\title{\underline{Compact} and widely bandwidth-tunable silicon filter with an unlimited free-spectral range}
 
 
 
@@ -50,7 +50,7 @@
 	We demonstrate an integrated band-pass filter with the bandwidth continuously tuned across 670 GHz (117 GHz to 788 GHz), which, to the best of our knowledge, is the widest tuning span ever demonstrated on a silicon chip.
 	The filter also features simultaneous wavelength tuning and an unlimited free spectral range. 
 	We measured an out-of-band contrast of up to 55 dB, low in-band ripples of less than 0.3 dB, and in-band group delay variation of less than 8 ps.
-	This result was achieved using cascaded Bragg-grating-assisted contra-directional couplers and micro-heaters on the 220-nm silicon-on-insulator platform with a footprint of less than 7,000~\textmu m$^2$. Another design with the bandwidth continuously tunable from 50 GHz to 1 THz is also presented. 
+	This result was achieved using cascaded Bragg-grating-assisted contra-directional couplers and micro-heaters on the 220-nm silicon-on-insulator platform with a footprint of less than \underline{7,000~\textmu m$^2$.} Another design with the bandwidth continuously tunable from 50 GHz to 1 THz is also presented. 
 \end{abstract}
 
 \setboolean{displaycopyright}{true}
@@ -92,9 +92,9 @@
 	The schematic of the proposed device is shown in Fig.~\ref{fig:schematic}. 
 	It consists of a pair of cascaded contra-DCs, each operating as a drop filter. 
 	The drop port of the first contra-DC is connected to the input port of the second contra-DC. 
-	Therefore, the finally dropped signal("Drop port of the system"), is determined by the product of the  drop-port transfer functions of the two contra-DCs. 
+	Therefore, the finally dropped signal ("Drop port of the system"), is determined by the product of the  drop-port transfer functions of the two contra-DCs. 
 	
-	%The center wavelength of the contra-DC is determined by the phase-match condition: $\lambda_\text{c} = \Lambda (n_\text{1}+n_\text{2})$, where $\Lambda$ is the grating pitch, and $n_\text{1}$ and $n_\text{2}$ are the effective indices of the first-order and second-order eigenmodes in the coupler. 
+	\sout{The center wavelength of the contra-DC is determined by the phase-match condition: $\lambda_\text{c} = \Lambda (n_\text{1}+n_\text{2})$, where $\Lambda$ is the grating pitch, and $n_\text{1}$ and $n_\text{2}$ are the effective indices of the first-order and second-order eigenmodes in the coupler.}
 	At first, the two filters are identical and drop a large, well-defined window. By changing the temperature of a single filter, the bandwidth of the finally dropped signal can be adjusted by detuning the center wavelengths of the two contra-DCs.
 	
 	
@@ -139,8 +139,8 @@
 	%\section{Experiment}
 	
 	The device was fabricated using a CMOS-compatible technology with electron-beam lithography. 
-	Large coupling coefficients and precise apodization profiles are easier to achieve with this process, although optical lithography able to resolve the required periodicity and gap between waveguides as seen in \ref{fig:SEM} a) could be used. The corrugations do not need to be square shaped, but must have a large enough amplitude
-	.
+	\uline{Large coupling coefficients and precise apodization profiles are easier to achieve with this process, although optical lithography able to create the required periodicity and gap between waveguides as seen in \ref{fig:SEM} a) could be used. The corrugations do not need to be square shaped, but must have a large enough amplitude.}
+	
 	Fiber grating couplers \cite{zhong2014focusingFGC} are used as optical inputs and outputs in the measurement. 
 	Fig.~\ref{fig:passive} shows the measured drop port response of the cascaded contra-DC filters. 
 	The measurements were normalized using the response of a pair of directly connected fiber grating couplers on the same chip.
@@ -152,7 +152,7 @@
 	\end{figure}
 	
 	The device exhibits a high side-lobe suppression ratio (SLSR) of over 40 dB and a high contrast of about 55 dB between the pass-band and the stop-band. 
-	The insertion loss is very low, less than 0.5 dB (i.e., 0.25 dB per contra-DC), with small ripples of less than 0.3 dB within the 1-dB passband over 5.8 nm (733~GHz). This agrees with the measurements in the literature \cite{caverley2015measurement}.
+	The insertion loss is very low, less than 0.5 dB (i.e., 0.25 dB per contra-DC), with small ripples of less than 0.3 dB within the 1-dB passband over 5.8 nm (733~GHz). \uline{This agrees with the measurements in the literature \cite{caverley2015measurement}.}
 	The edge roll-off rate is 19 dB/nm on the left side and 24 dB/nm on the right side.
 	The simulation agrees well with experiment.
 	
@@ -170,13 +170,13 @@
 	
 	By changing the temperature of a single contra-DC, we shift its phase-match condition, resulting in a smaller band overlap between the two contra-DCs and thus a narrower passband in the drop port, as shown in Fig.~\ref{fig:bandTune}.  
 	Due to the wavelength detuning,  the stop-band edges are now determined by the single filters. 
-	As a result, the side-lobes suppression for small bandwidths degrades to -15 dB.
+	\uline{As a result, the side-lobes suppression for small bandwidths degrades to -15 dB.}
 	A continuous tuning of the 3-dB bandwidth from 788 GHz down to 117 GHz (i.e., over 670 GHz or 5.4 nm) is experimentally observed as the on-chip temperature increases by 70 degrees. 
 	
 	The microheaters are made of 300-nm-thick, 2-\textmu m-wide Al strips.
-	The power efficiency of the bandwidth tuning is about 24~mW/nm, which dissipates a lot of heat and would be impractical for integration with electronics.
+	\uline{The power efficiency of the bandwidth tuning is about 24~mW/nm, which dissipates a lot of heat and would be impractical for integration with electronics.}
 	We also observe a slight red-shift of the center wavelength at higher temperature, indicating thermal coupling between the two contra-DCs that are about 10 \textmu m away from each other.
-	These issues can be resolved by optimizing the heater design, e.g., using smaller heater features and thermal isolation \cite{dong2010thermally}.
+	\uline{These issues can be resolved by optimizing the heater design, e.g., using smaller heater features and thermal isolation \cite{dong2010thermally}.}
 	
 	
 	
@@ -216,7 +216,7 @@
 			\\
 			Ong (2013)\cite{ong2013ultra} &	Cascaded MRs &	125 GHz/ 0.9 THz &	11.6-125 GHz &	0.25 dB / 3 dB &	50-100 dB
 			\\
-			\textbf{This experiment }& Cascaded contra-DC &	778 GHz / Unlimited  &	67-778 GHz &	0.5 dB / 0.3 dB &	15-55 dB 
+			\textbf{This experiment }& Cascaded contra-DC &	778 GHz / Unlimited  &	67-778 GHz &	0.5 dB / 0.3 dB &	\underline{15-55 dB }
 			\\
 			\textbf{4-stage design  }& Cascaded contra-DC &	1 THz / Unlimited  &	49-1007 GHz &	<1 dB / 0.3 dB & >49 dB 
 			\\

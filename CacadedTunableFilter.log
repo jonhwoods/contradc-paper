@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  21 OCT 2015 19:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.9)  22 OCT 2015 10:51
 entering extended mode
 **CacadedTunableFilter.tex
 
@@ -1253,15 +1253,27 @@ File: data/FigApod.png Graphic file (type png)
 <use data/FigApod.png>
 Package pdftex.def Info: data/FigApod.png used on input line 104.
 (pdftex.def)             Requested size: 250.14749pt x 136.5752pt.
- <data/Passive62.pdf, id=44, 451.6875pt x 301.125pt>
-File: data/Passive62.pdf Graphic file (type pdf)
+Package epstopdf Info: Source file: <data/Passive62.eps>
+(epstopdf)                    date: 2015-10-22 10:22:53
+(epstopdf)                    size: 288389 bytes
+(epstopdf)             Output file: <data/Passive62-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:24:07
+(epstopdf)                    size: 76661 bytes
+(epstopdf)             Command: <epstopdf --outfile=data/Passive62-eps-converte
+d-to.pdf data/Passive62.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
 
-<use data/Passive62.pdf>
-Package pdftex.def Info: data/Passive62.pdf used on input line 149.
-(pdftex.def)             Requested size: 247.64738pt x 165.10004pt.
+<data/Passive62-eps-converted-to.pdf, id=44, 451.6875pt x 303.1325pt>
+File: data/Passive62-eps-converted-to.pdf Graphic file (type pdf)
+
+<use data/Passive62-eps-converted-to.pdf>
+Package pdftex.def Info: data/Passive62-eps-converted-to.pdf used on input line
+ 149.
+(pdftex.def)             Requested size: 247.64738pt x 166.20071pt.
  [2 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/FigApod.png
-> <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Passive62.pdf
->]
+> <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/Passive62-eps
+-converted-to.pdf>]
 Package epstopdf Info: Source file: <data/Phase3.eps>
 (epstopdf)                    date: 2015-09-01 15:33:59
 (epstopdf)                    size: 34233 bytes
@@ -1273,7 +1285,7 @@ o.pdf data/Phase3.eps>
 (epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Phase3-eps-converted-to.pdf, id=111, 451.6875pt x 297.11pt>
+<data/Phase3-eps-converted-to.pdf, id=73, 451.6875pt x 297.11pt>
 File: data/Phase3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Phase3-eps-converted-to.pdf>
@@ -1291,7 +1303,7 @@ Package epstopdf Info: Source file: <data/Band6.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Band6-eps-converted-to.pdf, id=116, 451.6875pt x 301.125pt>
+<data/Band6-eps-converted-to.pdf, id=78, 451.6875pt x 301.125pt>
 File: data/Band6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Band6-eps-converted-to.pdf>
@@ -1309,7 +1321,7 @@ Package epstopdf Info: Source file: <data/Central2.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/Central2-eps-converted-to.pdf, id=118, 451.6875pt x 301.125pt>
+<data/Central2-eps-converted-to.pdf, id=80, 451.6875pt x 301.125pt>
 File: data/Central2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data/Central2-eps-converted-to.pdf>
@@ -1328,8 +1340,8 @@ eps-converted-to.pdf data/4StageDesignCompiled2.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<data/4StageDesignCompiled2-eps-converted-to.pdf, id=123, 451.6875pt x 301.125p
-t>
+<data/4StageDesignCompiled2-eps-converted-to.pdf, id=85, 451.6875pt x 301.125pt
+>
 File: data/4StageDesignCompiled2-eps-converted-to.pdf Graphic file (type pdf)
  <use data/4StageDesignCompiled2-eps-converted-to.pdf>
 Package pdftex.def Info: data/4StageDesignCompiled2-eps-converted-to.pdf used o
@@ -1350,11 +1362,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 7.59998pt on input line 8.
-
-Underfull \vbox (badness 3977) has occurred while \output is active []
-
-)
-
+) 
 AED: lastpage setting LastPage
 [4 <C:/Users/Jonathan St-Yves/Documents/GitHub/contradc-paper/data/4StageDesign
 Compiled2-eps-converted-to.pdf>]
@@ -1370,10 +1378,10 @@ Package rerunfilecheck Info: File `CacadedTunableFilter.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  ) 
 Here is how much of TeX's memory you used:
- 13764 strings out of 493921
- 206258 string characters out of 3144844
- 434181 words of memory out of 3000000
- 16479 multiletter control sequences out of 15000+200000
+ 13768 strings out of 493921
+ 206447 string characters out of 3144844
+ 434197 words of memory out of 3000000
+ 16482 multiletter control sequences out of 15000+200000
  96007 words of font info for 275 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,18n,45p,688b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1389,9 +1397,9 @@ w/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
 
-Output written on CacadedTunableFilter.pdf (4 pages, 540370 bytes).
+Output written on CacadedTunableFilter.pdf (4 pages, 545426 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  60964 words of extra memory for PDF output out of 61914 (max. 10000000)
 

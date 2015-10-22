@@ -1,112 +1,123 @@
-\documentclass[]{article}
+\documentclass[]{letter}
 \usepackage{textcomp}
+\usepackage[margin=1.5in]{geometry}
 %\usepackage{amsmath,amssymb}
 
 \title{Reply to reviewers}
-\author{Jonathan St-Yves}
+%\author{Jonathan St-Yves}
 
 \begin{document}
 
-\maketitle
+%\maketitle
 
+Dear reviewers,
 
-\section*{Reviewer 1}
-The manuscript entitled "Ultra-compact, widely bandwidth-tunable silicon filter with an unlimited free-spectral range" presents experimental results on an integrated tunable optical filter in the C-band. The manuscript highlights some features of the devices such as the wide tunability (670 GHz), a high-rejection (55dB), the small footprint, and a low group delay variation.
+Thank you for taking the time to review this article and contribute to the discussion to improve it's quality. The reviewers raised multiple valid points, and we will address them one by one in this reply. Please see the attached document to see the revised article with changes being underlined.
+
+%\section*{Reviewer 1}
+\textbf{Reviewer 1:} The manuscript entitled "Ultra-compact, widely bandwidth-tunable silicon filter with an unlimited free-spectral range" presents experimental results on an integrated tunable optical filter in the C-band. The manuscript highlights some features of the devices such as the wide tunability (670 GHz), a high-rejection (55dB), the small footprint, and a low group delay variation.
 The device is based on a cascaded contra-directional coupler structure, and the authors also show how a four-stage cascaded device could improve some of its characteristics, such as an expanded bandwidth.
 
 The article appears relevant to the scope of Optics Letters and to the research community. The quality of the science and the presentation are very high.
 My main concern with this manuscript is with the title, since it suggests "unlimited free-spectral range" where the small print limits that range to the C-band. Since this is misleading, I would rather suggest a more discreet approach.
 
-\emph{The free spectral range is in fact unlimited, at least in the band where silicon and silicon oxide is transparent. The second order reflection theoretically happens at $\lambda_c/2$, or about 770 nm in this case. 
-To clarify what we mean by free spectral range: it is the spacing between two successive dropped optical intensity maxima.}
+\textbf{Reply:} The free spectral range is in fact unlimited, at least in the band where silicon and silicon oxide is transparent. The second order reflection theoretically happens at $\lambda_c/2$, or about 770 nm in this case. 
+To clarify what we mean by free spectral range: it is the spacing between two successive dropped optical intensity maxima. It is not limited to the C-band.
 
 
-Other than that, here are some questions that, if addressed, might improve the overall quality further:
+\textbf{Reviewer 1:} Other than that, here are some questions that, if addressed, might improve the overall quality further:
 \begin{itemize}
 \item There is some minor inconsistency with the metrics, highlighting a -20dB level requirement (in Figure 3), and then down-grading it to -15dB (in figure 5 - in particular for the +70K curve)
 
-\emph{While -20 dB is the typical standard, -15 dB also has similar practical uses. In cases where side-lobes suppression is important, we expect better performance from the 4 staged design of Figure 7. Changed the text to make it clearer and not possibly imply that -15 is the standard.}
+\textbf{Reply:} While -20 dB is the typical standard, -15 dB also has similar practical uses. In cases where side-lobes suppression is important, we expect better performance from the 4 staged design of Figure 7. Changed the text to make it clearer and not possibly imply that -15 is the standard.
 
 \item Related to the previous point, the shape of the spectral response degrades substantially - beyond acceptable maybe - when the device is pushed to the limit, the performance in this case is arguably consistent with the advertised metrics (top-hat for instance).
 
-\emph{As discussed above, the acceptability of the shape depends of the application. Added the 15 dB figure of merit to the comparison table.}
+\textbf{Reply:} Added the 15 dB figure of merit to the comparison table.
 
 \item Power dissipation: The device described in the manuscript appears to require a significant amount of power which could cause problems if integrated with electronics as suggested. This also will potentially affect the performance of a device comprising even more stages - increasing the effect of cross-talk. Please comment on that and include an estimation of the performance limits of such enhanced devices to their integration potential.
 
-\emph{Our experiment used a very simplistic heater without thermal isolation or any kind of optimization. Using techniques such as the ones described in the reference of this section, these would not be issues. In principle, we could only dissipate energy through the electrical connections and the optical inputs and outputs, with the rest of the device being suspended in the air and thus thermally isolated. Made some changes to the text to better comment on the issue.}
+\textbf{Reply:} Our experiment used a very simplistic heater without thermal isolation or any kind of optimization. Using techniques such as the ones described in the reference of this section, these would not be issues. In principle, we could only dissipate energy through the electrical connections and the optical inputs and outputs, with the rest of the device being suspended in the air and thus thermally isolated. Made some changes to the text to better comment on the issue.
 
 \end{itemize}
 
 
-Finally, here are some cosmetic defects I have encountered:
+\textbf{Reviewer 1:} Finally, here are some cosmetic defects I have encountered:
 \begin{itemize}
 \item The color scheme in figures 5, 6 and 7 is probably not optimum - I would advise changing the orange to green.
 
-\emph{Agreed, changed to green.}
+\textbf{Reply:} Agreed, changed to green.
 
 \item The use of millimeters for the footprint instead of micrometers is confusing.
 
-\emph{Agreed, changed to micrometers squared.}
+\textbf{Reply:} Agreed, changed to micrometers squared.
 
 \item A typo on the 1st paragraph of page 3, "then"; should read "than".
 
-\emph{Thank you for the correction.} 
+\textbf{Reply:} Thank you for the correction.
 	
-\emph{And lastly, thank you for the comments and the publication recommendation.}
-
 \end{itemize}
 
 
-\section*{Reviewer 2:}
-This manuscript reports on the design and measurement of a tunable filter, composed of a pair of cascaded contra-directional couplers, on a silicon-photonics platform. The overall work, and especially the presentation, of the authors is to be highly commended. Every step of the design and measurement processes is described in succinct but complete detail. The cited references seem to provide adequate sources for further detail. The device is to be applauded for its simplistic design yet impressive filtering capability and tunability. Although the manuscript surpasses the standards of many of its peers, we hope that the authors consider the comments below to further strengthen their submission.
+%\section*{Reviewer 2:}
+\textbf{Reviewer 2:} This manuscript reports on the design and measurement of a tunable filter, composed of a pair of cascaded contra-directional couplers, on a silicon-photonics platform. The overall work, and especially the presentation, of the authors is to be highly commended. Every step of the design and measurement processes is described in succinct but complete detail. The cited references seem to provide adequate sources for further detail. The device is to be applauded for its simplistic design yet impressive filtering capability and tunability. Although the manuscript surpasses the standards of many of its peers, we hope that the authors consider the comments below to further strengthen their submission.
 
 \begin{itemize}
 \item A brief discussion on the geometry and tolerance requirements of individual corrugations would be appreciated. If precise geometry is not as important as control of periodicity, for example, then this device could be more properly “CMOS compatible” in that highly precise (and less manufacturing-friendly) electron beam lithography may not be an absolute necessity.
 
-\emph{Large coupling coefficients and precise apodization profiles are easier to achieve with this process, although optical lithography able to resolve the required periodicity and gap between waveguides as seen in Fig.~2~a) could be used. The corrugations do not need to be square shaped, but must have a large enough amplitude.} 
+\textbf{Reply:} Large coupling coefficients and precise apodization profiles are easier to achieve with this process, although optical lithography able to create the required periodicity and gap between waveguides as seen in Fig.~2~a) could be used. The corrugations do not need to be square shaped, but must have a large enough amplitude.
 	
-\emph{Our experience with optical lithography shows that the design needs to be biased to account for amplitude distortion, but it is in principle possible to use CMOS compatible process, albeit with an additional iteration to obtain the biasing information.}
+Our experience with optical lithography shows that the design needs to be biased to account for amplitude distortion, but it is in principle possible to use CMOS compatible process, albeit with an additional iteration to obtain the biasing information.
 
-\item A brief discussion on the coupling coefficients and \textbf{radiation losses} of the contra-directional couplers may be appropriate. We assume that the coefficients play a large role in obtaining the filter shapes present.
+\item A brief discussion on the coupling coefficients and radiation losses of the contra-directional couplers may be appropriate. We assume that the coefficients play a large role in obtaining the filter shapes present.
 
-\emph{High coupling coefficients are necessary to design short devices with low through port losses and large bandwidth. A comparison with the fabricated device versus a larger coupling is illustrated in Fig. 7. Comment on losses with the reference \cite{caverley2015measurement}}
+\textbf{Reply:} High coupling coefficients are necessary to design short devices with low through port losses and large bandwidth. A comparison with the fabricated device versus a larger coupling is illustrated in Fig. 7. We've added a comment on the losses and the reference \textit{Measurement of optical losses in silicon photonic contra-directional couplers}.
 
 \item It is strange that no mention is given of the “through” and “residue” responses (referring to the nomenclature of Fig. 1).
 
-\emph{We choose to focus on the drop port response in this article. INCLUDE THROUGH PORT IN FIG 3?}
+\textbf{Reply:} We choose to focus on the drop port response in this article. We unfortunately do not have the measurements of the other ports for this device.
 
 \item Following from the foregoing two points, we notice a 2-dB insertion loss in Fig. 3. Is this a result of radiation loss or large amounts of signal exiting from the “through” and “residue” ports?
 
-\emph{Fig. 3 shows an insertion loss of 0.5 dB, both in experiments and in simulation. This loss is  mainly due to silicon absorption and waveguide radiative losses (0.4 dB). The signal exiting from other ports causes about 0.1 dB of losses.}
+\textbf{Reply:} Fig. 3 shows an insertion loss of 0.5 dB, both in experiments and in simulation. This loss is  mainly due to silicon absorption and waveguide radiative losses (about 0.4 dB). The signal exiting from other ports causes less than 0.1 dB of losses. We've added a label to better show the insertion loss on the figure.
 
 \item We encourage the authors to drop the term “ultra-compact” from their title. By the authors’ own admission, the device is at least 312 µm long, with at least several microns of width. These dimensions may be compact in terms of conventional optical filters, but in a silicon platform, which tends to promise large-scale integrability of components, these dimensions are far from compact.
 
-\emph{The device ($\approx$ 7,000 \textmu m$^2$) is about hte same size as micro-rings ( also $\approx$ 7,000 \textmu m$^2$) and smaller than most MZI designs($\approx$ 600,000 \textmu m$^2$) with similar performance. Changed to "Compact" }
+\textbf{Reply:} The device ($\approx$ 7,000 \textmu m$^2$) is about the same size as micro-rings ( also $\approx$ 7,000 \textmu m$^2$) and smaller than most MZI designs($\approx$ 600,000 \textmu m$^2$) with similar performance. Changed to "Compact".
 \end{itemize}
 
 
-We realize that it may be difficult to add the above suggestions due to lack of space. It should be noted, however, that the first two introductory/review paragraphs of the manuscript can be substantially abridged, with details being deferred to the references.
+\textbf{Reviewer 2:} We realize that it may be difficult to add the above suggestions due to lack of space. It should be noted, however, that the first two introductory/review paragraphs of the manuscript can be substantially abridged, with details being deferred to the references.
+
+\textbf{Reply:} In order to make space for the additional content, the passage explaining the relationship between the effective indexes, period and central reflected wavelength has been removed, being redundant with the references and not containing critical information for the understanding of this article.
 
 
-\section*{Pre-Production Review}
-\begin{itemize}
-\item Please upload electronic figure files in TIFF, EPS, or JPEG format
+This concludes the author's reply to the reviewers. Thanks again for all the great comments, which will greatly improve the clarity of the article.
 
-\item For free color figures online-only please submit electronic art files following instructions given at the journal website:
+Sincerely,
 
- https://www.osapublishing.org/submit/style/coloronline.cfm 
+The authors of manuscript 249853
+
+
+%\section*{Pre-Production Review}
+%\begin{itemize}
+%\item Please upload electronic figure files in TIFF, EPS, or JPEG format
+
+%\item For free color figures online-only please submit electronic art files following instructions given at the journal website:
+
+% https://www.osapublishing.org/submit/style/coloronline.cfm 
  
-Use these instructions to submit figures that are or grayscale only:
+%Use these instructions to submit figures that are or grayscale only:
 
- https://www.osapublishing.org/ol/submit/style/default.cfm
+% https://www.osapublishing.org/ol/submit/style/default.cfm
 
-\item When citing a reference you must include publication, title, authors, and page numbers. You may not use "et al" to indicate additional authors.
+%\item When citing a reference you must include publication, title, authors, and page numbers. You may not use "et al" to indicate additional authors.
 
-\item After revision, please make sure that the references are cited in numerical order; renumber references if necessary. Please remove any duplicate references and renumber accordingly.
-\end{itemize}
+%\item After revision, please make sure that the references are cited in numerical order; renumber references if necessary. Please remove any duplicate references and renumber accordingly.
+%\end{itemize}
 
-\bibliography{bibli}
-\bibliographystyle{osajnl}
+%\bibliography{bibli}
+%\bibliographystyle{osajnl}
 
 
 \end{document}
